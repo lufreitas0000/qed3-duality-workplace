@@ -28,6 +28,21 @@ Every module executes a 3-step **Red -> Green -> Refactor** cycle:
 
 ## 2. R&D Sprint Backlog
 
+### Sprint 0a: Mathematical Toolkit and QM Axioms (Chapters A, B, C)
+- **Sprint Goal:** Formalize analysis, operator algebras, and foundational axioms.
+- **Deliverable Modules:**
+  - `src/chA/chA_m01` through `chA_m10`
+  - `src/chB/chB_m01` through `chB_m11`
+  - `src/chC/chC_m01` through `chC_m15`
+
+### Sprint 0b: Symmetries, Algebras, and CFT Foundations (Chapters D, E, F, G)
+- **Sprint Goal:** Establish operator formalism for symmetries, vertex algebras, relativistic fields, and CFT.
+- **Deliverable Modules:**
+  - `src/chD/chD_m01` through `chD_m09`
+  - `src/chE/chE_m01` through `chE_m11`
+  - `src/chF/chF_m01` through `chF_m09`
+  - `src/chG/chG_m01` through `chG_m10`
+
 ### Sprint 1: Constructive 1D Bosonization Engine (Chapter 1 — Miranda Sec. I–XIII)
 - **Sprint Goal:** Constructively prove the complete 1D bosonization dictionary at finite $L$ and finite UV cutoff $\alpha > 0$.
 - **Deliverable Modules (`src/ch01/`):**
@@ -36,6 +51,8 @@ Every module executes a 3-step **Red -> Green -> Refactor** cycle:
   - [ ] `ch01_m03_mattis_mandelstam.tex` (Ref: `ref_ch01_m03_sec08_appBC.md`)
   - [ ] `ch01_m04_bosonic_fields_hamiltonian.tex` (Ref: `ref_ch01_m04_sec09_10.md`)
   - [ ] `ch01_m05_two_branches_dual_fields.tex` (Ref: `ref_ch01_m05_sec11_13.md`)
+  - [ ] `ch01_m06_baker_hausdorff_explicit.tex`
+  - [ ] `ch01_m07_finite_size_point_splitting.tex`
 
 ### Sprint 2: Interacting 1D Liquids, Spin Chains & Sine-Gordon (Chapter 2 — Miranda Sec. XIV–XVIII)
 - **Sprint Goal:** Solve the spinless and spinful Luttinger models via Bogoliubov rotation, compute all correlation exponents and Green's functions, bosonize the XXZ chain, and analyze sine-Gordon gaps.
@@ -44,6 +61,8 @@ Every module executes a 3-step **Red -> Green -> Refactor** cycle:
   - [ ] `ch02_m02_spinless_correlators_greens.tex` (Ref: `ref_ch02_m02_sec14_2.md`)
   - [ ] `ch02_m03_xxz_chain_haldane_conjecture.tex` (Ref: `ref_ch02_m03_sec15_16.md`)
   - [ ] `ch02_m04_spinful_luttinger_sine_gordon.tex` (Ref: `ref_ch02_m04_sec17_18_appE.md`)
+  - [ ] `ch02_m05_shale_stinespring_thermodynamic.tex`
+  - [ ] `ch02_m06_bethe_ansatz_mapping.tex`
 
 ### Sprint 3: Rigorous Completeness, Vertex Algebras & Green's Functions (Chapter 3 — vDS Sec. 1–8)
 - **Sprint Goal:** Prove $Z_c = Z_b$ via Jacobi's triple product, resolve the $\delta_b$ zero-mode energy, derive vertex OPEs and thermal/finite-$L$ Green's functions, and build the 5-way notation dictionary.

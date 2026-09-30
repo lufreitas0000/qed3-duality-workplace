@@ -1,0 +1,245 @@
+catalog:
+  - bibkey: "Hall_QTM"
+    citation: "Brian C. Hall, Quantum Theory for Mathematicians"
+    tier: 1
+    chapters_served: ["chB", "chC", "chD"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "ReedSimon"
+    citation: "Michael Reed and Barry Simon, Methods of Modern Mathematical Physics I (and selectively II)"
+    tier: 1
+    chapters_served: ["chA", "chB", "chC"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "BratteliRobinson"
+    citation: "Ola Bratteli and Derek W. Robinson, Operator Algebras and Quantum Statistical Mechanics 1 & 2"
+    tier: 1
+    chapters_served: ["chB", "chC", "chF"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Tasaki_ManyBody"
+    citation: "Hal Tasaki, Physics and Mathematics of Quantum Many-Body Systems"
+    tier: 1
+    chapters_served: ["chC"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "DiFrancesco_CFT"
+    citation: "P. Di Francesco, P. Mathieu, and D. Senechal, Conformal Field Theory"
+    tier: 1
+    chapters_served: ["chG"]
+    sections_to_ingest: "Conformal invariance, 2D, free boson/fermion, Kac-Moody, torus partition function"
+    status: "TODO"
+
+  - bibkey: "Miranda_2003"
+    citation: "Eduardo Fradkin Miranda, Braz. J. Phys. 33, 3 (2003)"
+    tier: 1
+    chapters_served: ["ch1", "ch2"]
+    sections_to_ingest: "Sections I-XVIII"
+    status: "TODO"
+
+  - bibkey: "vonDelft_1998"
+    citation: "Jan von Delft and Herbert Schoeller, Bosonization for Beginners - Refermionization for Experts, Ann. Phys. 267, 225-305 (1998)"
+    tier: 1
+    chapters_served: ["ch3", "ch4"]
+    sections_to_ingest: "Sections 1-10"
+    status: "TODO"
+
+  - bibkey: "Haldane_1981"
+    citation: "F. D. M. Haldane, Luttinger liquid theory of one-dimensional quantum fluids, J. Phys. C: Solid State Phys. 14 2585 (1981)"
+    tier: 1
+    chapters_served: ["ch2", "ch3"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Hall_Lie"
+    citation: "Brian C. Hall, Lie Groups, Lie Algebras, and Representations"
+    tier: 2
+    chapters_served: ["chD"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Weinberg_I"
+    citation: "Steven Weinberg, The Quantum Theory of Fields, Vol. 1"
+    tier: 2
+    chapters_served: ["chD", "chF"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Kac_Infinite"
+    citation: "Victor G. Kac, Infinite-Dimensional Lie Algebras"
+    tier: 2
+    chapters_served: ["chE"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "PressleySegal"
+    citation: "Andrew Pressley and Graeme Segal, Loop Groups"
+    tier: 2
+    chapters_served: ["chE"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Kac_Vertex"
+    citation: "Victor G. Kac, Vertex Algebras for Beginners"
+    tier: 2
+    chapters_served: ["chE"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "FrenkelBenZvi"
+    citation: "Edward Frenkel and David Ben-Zvi, Vertex Algebras and Algebraic Curves"
+    tier: 2
+    chapters_served: ["chE"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "StreaterWightman"
+    citation: "R. F. Streater and A. S. Wightman, PCT, Spin and Statistics, and All That"
+    tier: 2
+    chapters_served: ["chF"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Haag"
+    citation: "Rudolf Haag, Local Quantum Physics"
+    tier: 2
+    chapters_served: ["chF"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "GlimmJaffe"
+    citation: "James Glimm and Arthur Jaffe, Quantum Physics: A Functional Integral Point of View"
+    tier: 2
+    chapters_served: ["chF"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "CareyHurstOBrien"
+    citation: "A.L. Carey, C.A. Hurst, D.M. O'Brien, Carey-Ruijsenaars, Mickelsson"
+    tier: 2
+    chapters_served: ["chC", "chF"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "LiebMattis"
+    citation: "E. H. Lieb and D. C. Mattis, J. Math. Phys. 6, 304 (1965)"
+    tier: 2
+    chapters_served: ["ch1"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "MattisMandelstam"
+    citation: "D. C. Mattis and S. Mandelstam"
+    tier: 2
+    chapters_served: ["ch1"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Shale_1962"
+    citation: "D. Shale, Trans. Amer. Math. Soc. 103, 149 (1962)"
+    tier: 2
+    chapters_served: ["chC"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Schwinger_1959"
+    citation: "J. Schwinger, Phys. Rev. Lett. 3, 296 (1959)"
+    tier: 2
+    chapters_served: ["chE"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Mross_MAM"
+    citation: "D. F. Mross, J. Alicea, and O. I. Motrunich, Phys. Rev. Lett. 117, 016802 (2016) and related"
+    tier: 2
+    chapters_served: ["ch5", "ch6", "ch7"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Son_2015"
+    citation: "D. T. Son, Phys. Rev. X 5, 031027 (2015)"
+    tier: 2
+    chapters_served: ["ch8"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Seiberg_2016"
+    citation: "N. Seiberg, T. Senthil, C. Wang, and E. Witten, Ann. Phys. 374, 395 (2016)"
+    tier: 2
+    chapters_served: ["ch8", "ch9"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "MetlitskiVishwanath"
+    citation: "M. A. Metlitski and A. Vishwanath, Phys. Rev. B 93, 245151 (2016)"
+    tier: 2
+    chapters_served: ["ch8"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "WangSenthil"
+    citation: "C. Wang and T. Senthil, Phys. Rev. X 5, 041031 (2015)"
+    tier: 2
+    chapters_served: ["ch8"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Takesaki"
+    citation: "M. Takesaki, Theory of Operator Algebras I-III"
+    tier: 3
+    chapters_served: ["chB"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "KadisonRingrose"
+    citation: "R. V. Kadison and J. R. Ringrose, Fundamentals of the Theory of Operator Algebras"
+    tier: 3
+    chapters_served: ["chB"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Schottenloher"
+    citation: "M. Schottenloher, A Mathematical Introduction to Conformal Field Theory"
+    tier: 3
+    chapters_served: ["chG"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Gawedzki"
+    citation: "K. Gawedzki, Conformal field theory: a case study"
+    tier: 3
+    chapters_served: ["chG"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Giamarchi"
+    citation: "T. Giamarchi, Quantum Physics in One Dimension"
+    tier: 3
+    chapters_served: ["ch1", "ch2"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Gogolin"
+    citation: "A. O. Gogolin, A. A. Nersesyan, and A. M. Tsvelik, Bosonization and Strongly Correlated Systems"
+    tier: 3
+    chapters_served: ["ch1", "ch2"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Shankar"
+    citation: "R. Shankar, Quantum Field Theory and Condensed Matter"
+    tier: 3
+    chapters_served: ["ch2", "ch3"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"
+
+  - bibkey: "Fradkin"
+    citation: "E. Fradkin, Field Theories of Condensed Matter Physics"
+    tier: 3
+    chapters_served: ["ch5", "ch6"]
+    sections_to_ingest: "UNVERIFIED numbering, check edition"
+    status: "TODO"

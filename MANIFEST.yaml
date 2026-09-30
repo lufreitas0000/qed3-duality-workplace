@@ -1,0 +1,72 @@
+ch01\_m03:
+  filepath: src/ch01/ch01_m03_mattis_mandelstam.tex
+  module_id: ch01\_m03
+  status: DRAFT
+  feeds: Ch. 1 (Sec. 1.6, App. 1.A.3 - 1.A.4) | Miranda Sec. VIII & App. B - C
+  sources: none
+  depends_on: []
+  regulators: none
+ch01\_m02:
+  filepath: src/ch01/ch01_m02_current_algebra_klein.tex
+  module_id: ch01\_m02
+  status: DRAFT
+  feeds: Ch. 1 (Sec. 1.4 - 1.5) | Miranda Sec. V - VII
+  sources: none
+  depends_on: []
+  regulators: none
+ch01\_m04:
+  filepath: src/ch01/ch01_m04_bosonic_fields_hamiltonian.tex
+  module_id: ch01\_m04
+  status: DRAFT
+  feeds: Ch. 1 (Sec. 1.7 - 1.8, App. 1.A.5 - 1.A.6) | Miranda Sec. IX - X
+  sources: none
+  depends_on: []
+  regulators: none
+ch01\_m01:
+  filepath: src/ch01/ch01_m01_lattice_continuum_fock.tex
+  module_id: ch01\_m01
+  status: DRAFT
+  feeds: Ch. 1 (Sec. 1.1 - 1.3, App. 1.A.1 - 1.A.2) | Miranda Sec. I - IV & App. A
+  sources: none
+  depends_on: []
+  regulators: none
+ch01\_m05:
+  filepath: src/ch01/ch01_m05_two_branches_dual_fields.tex
+  module_id: ch01\_m05
+  status: DRAFT
+  feeds: Ch. 1 (Sec. 1.9 - 1.10) | Miranda Sec. XI - XIII
+  sources: none
+  depends_on: []
+  regulators: none
+ch02\_m03:
+  filepath: src/ch02/ch02_m03_xxz_chain_haldane_conjecture.tex
+  module_id: ch02\_m03
+  status: DRAFT
+  feeds: Ch. 2 (Sec. 2.4 - 2.5, App. 2.A.4) | Miranda Sec. XV - XVI
+  sources: none
+  depends_on: []
+  regulators: none
+ch02\_m04:
+  filepath: src/ch02/ch02_m04_spinful_luttinger_sine_gordon.tex
+  module_id: ch02\_m04
+  status: DRAFT
+  feeds: Ch. 2 (Sec. 2.6 - 2.8, App. 2.A.5) | Miranda Sec. XVII - XVIII & App. E
+  sources: none
+  depends_on: []
+  regulators: none
+ch02\_m01:
+  filepath: src/ch02/ch02_m01_spinless_luttinger_bogoliubov.tex
+  module_id: ch02\_m01
+  status: DRAFT
+  feeds: Ch. 2 (Sec. 2.1 - 2.2, App. 2.A.1) | Miranda Sec. XIV.1 & App. D
+  sources: none
+  depends_on: []
+  regulators: none
+ch02\_m02:
+  filepath: src/ch02/ch02_m02_spinless_correlators_greens.tex
+  module_id: ch02\_m02
+  status: DRAFT
+  feeds: Ch. 2 (Sec. 2.3, App. 2.A.2 - 2.A.3) | Miranda Sec. XIV.2
+  sources: none
+  depends_on: []
+  regulators: none
