@@ -9,12 +9,13 @@ This repository is the **Research & Development (R&D) Sandbox** for the pedagogi
 The parent workspace `~/Projects/latex_notes/qed3-duality/` mounts three sibling directories in VS Code (`qed3-duality.code-workspace`):
 1. `workplace/` (Git repo, active branch `dev`): Granular, one-file-per-module step-by-step derivations, numerical/symbolic tests, and automation scripts.
 2. `book/` (Git repo, active branch `dev`): Clean pedagogical monograph populated only after a chapter's modules are `VERIFIED` in `workplace/`.
-3. `archive/` (Unversioned local reference vault): Contains the source `.tex` and `.pdf` files imported from Windows `Downloads`:
-   - `ref_miranda_2003/`: E. Miranda, *Introduction to Bosonization*, Braz. J. Phys. **33**, 3 (2003).
-   - `ref_vds_9805275/`: J. von Delft & H. Schoeller, *Bosonization for Beginners — Refermionization for Experts*, `cond-mat/9805275v3`.
-   - `ref_mam_1510.08455/`: D. F. Mross, J. Alicea, & O. I. Motrunich, *Explicit derivation of duality between a free Dirac cone and QED in (2+1)D*, `arXiv:1510.08455v2`.
-   - `ref_seiberg_1606.01989/`: N. Seiberg, T. Senthil, C. Wang, & E. Witten, *A Duality Web in 2+1 Dimensions and Condensed Matter Physics*, `arXiv:1606.01989v2`.
-   - `legacy_dualidade/` & `legacy_tcc_english/`: Author's previous Portuguese and English manuscripts and TikZ figures.
+3. `references/` (Version-controlled private reference vault `qed3-duality-references`): Contains standardized literature digests and source files:
+   - `miranda_2003/`: E. Miranda, *Introduction to Bosonization*, Braz. J. Phys. **33**, 3 (2003).
+   - `von_delft_schoeller_1998/`: J. von Delft & H. Schoeller, *Bosonization for Beginners — Refermionization for Experts*, `cond-mat/9805275`.
+   - `mross_alicea_motrunich_2015/`: D. F. Mross, J. Alicea, & O. I. Motrunich, *Explicit derivation of duality between a free Dirac cone and QED in (2+1)D*, `arXiv:1510.08455`.
+   - `seiberg_et_al_2016/`: N. Seiberg, T. Senthil, C. Wang, & E. Witten, *A Duality Web in 2+1 Dimensions and Condensed Matter Physics*, `arXiv:1606.01989`.
+   - `altland_simons_2023/`, `senechal_1999/`, `sirker_2011/`: Supporting text references.
+   - `legacy/`: Consolidated earlier manuscripts and TikZ figures (`dualidade/` & `tcc_english/`).
 
 ---
 
