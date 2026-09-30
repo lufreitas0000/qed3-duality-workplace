@@ -1,0 +1,23 @@
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Python / Julia environments and caches
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+Manifest.toml
+
+# OS / Editor
+.DS_Store
+.vscode/
