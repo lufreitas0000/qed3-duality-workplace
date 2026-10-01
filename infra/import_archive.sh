@@ -2,7 +2,7 @@
 set -e
 
 WIN_DL="/mnt/c/Users/lucas/Downloads"
-REF_DIR="../references"
+REF_DIR="../reference-source"
 
 mkdir -p "${REF_DIR}/legacy/dualidade"
 mkdir -p "${REF_DIR}/legacy/tcc_english"

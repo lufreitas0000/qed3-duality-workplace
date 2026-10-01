@@ -6,7 +6,7 @@ Every module file `src/chXX/chXX_mYY_<topic>.tex` must follow the strict mathema
 2. **Definitions:** Unambiguous operator definitions with domain and index restrictions (e.g., $q = \frac{2\pi}{L}n_q > 0$).
 3. **Lemmas, Propositions, and Theorems:** Formal statements of all intermediate and main identities.
 4. **Constructive Proofs:** Line-by-line derivations. Never write "it is easy to show" or skip intermediate lines. Explicitly write out every index relabeling, normal-ordering subtraction $:AB: = AB - \langle AB \rangle_0$, Baker-Campbell-Hausdorff (BCH) step, and order of limits ($\alpha \to 0^+$ vs. $L \to \infty$).
-5. **Verification & Edge-Case Audit:** Check Hermiticity, dimensional consistency, and exact agreement with target equations in the reference vault (`../references/`).
+5. **Verification & Edge-Case Audit:** Check Hermiticity, dimensional consistency, and exact agreement with target equations in the reference vault (`../references-lightweight/`).
 
 ## 2. Global Notation Standard (Miranda Convention)
 All derivations across Chapters 1–9 must use **E. Miranda's normalization**:

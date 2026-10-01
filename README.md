@@ -10,11 +10,11 @@ The parent workspace `~/Projects/latex_notes/qed3-duality/` contains three Git r
 |---|---|
 | `workplace/` | Module-level derivations, tests, planning documents, and automation. |
 | `book/` | Clean monograph assembled from verified workplace modules. |
-| `references/` | Version-controlled Markdown digests and selected source material used by agents. |
-| `references-full/books/` | Local full-book source library; intentionally kept outside Git. |
-| `references-full/_slices/` | Generated front matter, section, chapter, and Markdown transcription artifacts; intentionally kept outside Git. |
+| `references-lightweight/` | Version-controlled Markdown digests and selected source material used by agents. |
+| `references-transcripts/` | Version-controlled Markdown transcripts of books and sections. |
+| `reference-source/` | Local full-book source library and generated slices; intentionally kept outside Git. |
 
-Reference work should begin with the lightweight `ref_*.md` digests in `references/`. Open a full PDF only when a statement, equation, or convention must be checked against the source.
+Reference work should begin with the lightweight `ref_*.md` digests in `references-lightweight/`. Open a full PDF only when a statement, equation, or convention must be checked against the source.
 
 ## Current research program
 
@@ -45,7 +45,7 @@ Machine-readable chapter and section maps live in [`refs/chapter_maps/`](refs/ch
   --map refs/chapter_maps/BOOK_KEY.sections.tsv --unit-type section
 ```
 
-Both scripts write generated PDFs beneath `../references-full/_slices/<book-key>/`. The TSV maps and Markdown index are version controlled; the large source and generated PDFs are not.
+Both scripts write generated PDFs beneath `../reference-source/_slices/<book-key>/`. The TSV maps and Markdown index are version controlled; the large source and generated PDFs are not.
 
 ## Module workflow
 

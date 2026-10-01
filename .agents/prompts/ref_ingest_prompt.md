@@ -10,10 +10,10 @@ You are a **Librarian Agent** for the constructive bosonization and $(2+1)$D Dir
 
 The project is structured into two sibling Git repositories under `~/Projects/latex_notes/qed3-duality/`:
 1. `workplace/`: Formal workspace containing modules (`src/chXX/`), tests (`tests/chXX/`), scripts (`infra/`), and the reference catalog (`refs/catalog.yaml`).
-2. `references/`: Dedicated literature repository (`../references/` relative to `workplace/`). All ingested slices and original sources are stored here.
+2. `references-lightweight/`: Dedicated literature repository (`../references-lightweight/` relative to `workplace/`). All ingested slices and original sources are stored here.
 
 ### File & Directory Conventions
-- **Reference Folder:** `../references/<author(s)>_<year>/` (e.g., `miranda_2003/`, `von_delft_schoeller_1998/`, `hall_2013/`).
+- **Reference Folder:** `../references-lightweight/<author(s)>_<year>/` (e.g., `miranda_2003/`, `von_delft_schoeller_1998/`, `hall_2013/`).
 - **Slice Filename:** `ref_<module_id>_<short_topic>.md` (e.g., `ref_chA_m01_banach_completeness.md`, `ref_chC_m01_dirac_von_neumann.md`).
 - **Folder README:** Each directory must maintain a `README.md` pointing downstream agents to the `ref_*.md` slices as the primary source of truth.
 
@@ -59,7 +59,7 @@ date: "YYYY-MM-DD"
 
 ### Wave 1: Core QM/Math and Sprint 0 Foundations
 
-| # | Reference & BibKey | Target Directory (`../references/`) | Ingest Scope | Serves |
+| # | Reference & BibKey | Target Directory (`../references-lightweight/`) | Ingest Scope | Serves |
 |---|---|---|---|---|
 | 1 | **Miranda 2003**<br>`Miranda_2003` | `miranda_2003/` | *Already ingested:* Secs. I–XIII and Apps. A–E | Ch. 1, Ch. 2 |
 | 2 | **Hall, *Quantum Theory for Mathematicians***<br>`Hall_QTM` | `hall_2013/` | Hilbert-space axioms, spectral theorem (bounded & unbounded), self-adjoint extensions, harmonic oscillator, uncertainty principle, Stone-von Neumann theorem (approx. Chs. 3, 6–12, 14 **(U)**). Skip WKB, hydrogen atom, path integrals. | `chC_m01`–`m06`<br>`chB_m04`–`m07` |
@@ -71,7 +71,7 @@ date: "YYYY-MM-DD"
 
 ### Wave 2: Sprint 1 Completion and Part 0 Analysis
 
-| # | Reference & BibKey | Target Directory (`../references/`) | Ingest Scope | Serves |
+| # | Reference & BibKey | Target Directory (`../references-lightweight/`) | Ingest Scope | Serves |
 |---|---|---|---|---|
 | 6 | **Reed-Simon II, *Fourier Analysis, Self-Adjointness***<br>`ReedSimon` | `reed_simon_1975/` | Fourier analysis and essential self-adjointness criteria (Chs. IX, X **(U)**). | `chA_m05`–`m09`<br>`chB_m05` |
 | 7 | **Carey-Hurst-O'Brien**, **Carey-Ruijsenaars**<br>`CareyHurstOBrien` | `carey_et_al/` | Shale-Stinespring implementability criterion, implementability of Bogoliubov transformations, and Schwinger terms on Fock space. | `chC_m10`–`m11`<br>`chE_m03` |
@@ -83,7 +83,7 @@ date: "YYYY-MM-DD"
 
 ### Wave 3: Sprints 2–4 and Bridge Chapters
 
-| # | Reference & BibKey | Target Directory (`../references/`) | Ingest Scope | Serves |
+| # | Reference & BibKey | Target Directory (`../references-lightweight/`) | Ingest Scope | Serves |
 |---|---|---|---|---|
 | 11 | **von Delft-Schoeller 1998**<br>`vonDelft_1998` | `von_delft_schoeller_1998/` | Complete review: Secs. 1–8 (completeness, $Z_c=Z_b$, Klein factors, vertex operators) and Secs. 9–10 (refermionization, impurity). | Ch. 3, Ch. 4 |
 | 12 | **Haldane 1981** (J. Phys. C)<br>`Haldane_1981` | `haldane_1981/` | Luttinger liquid theory of 1D quantum fluids (harmonic fluid approach, topological excitations, zero modes). | Ch. 2, Ch. 3 |
@@ -96,7 +96,7 @@ date: "YYYY-MM-DD"
 
 ### Wave 4: Groups, QFT Axioms, and Sprints 5–7
 
-| # | Reference & BibKey | Target Directory (`../references/`) | Ingest Scope | Serves |
+| # | Reference & BibKey | Target Directory (`../references-lightweight/`) | Ingest Scope | Serves |
 |---|---|---|---|---|
 | 17 | **Hall, *Lie Groups, Lie Algebras, and Representations***<br>`Hall_Lie` | `hall_2015/` | Matrix Lie groups, Lie algebras, exponential map, Baker-Campbell-Hausdorff (BCH), $\mathfrak{su}(2)$, and representation theory (early chapters). | `chD_m01`–`m04` |
 | 18 | **Weinberg vol. 1, *Quantum Theory of Fields***<br>`Weinberg_I` | `weinberg_1995/` | Wigner's theorem (unitary/antiunitary), Poincaré classification, and discrete symmetries $\mathcal{P, C, T}$ (Chs. 2, 5 **(U)**). | `chD_m05`–`m07`<br>`chF_m07` |
@@ -123,7 +123,7 @@ Do not ingest these systematically; consult only on demand for pedagogical tone 
 1. **Verify Section Numbers:** Read the edition's table of contents. Replace any **(U)** tag in the catalog with verified chapter/section numbers.
 2. **Read & Extract:** Read the source text. Extract definitions, theorem statements, proof skeletons, and equation mappings. **Do not include full copyright-violating verbatim text blocks.**
 3. **Format conventions:** Record the source's conventions side-by-side with ours (Miranda convention: $\psi \sim 1/\sqrt{L}$, normal ordering, $[\hat{x}, \hat{p}] = i\hbar$, Fourier sign). Convention drift is the primary source of bugs across modules.
-4. **Write Slice:** Save the output in `../references/<author(s)>_<year>/ref_<module_id>_<short_topic>.md`.
+4. **Write Slice:** Save the output in `../references-lightweight/<author(s)>_<year>/ref_<module_id>_<short_topic>.md`.
 5. **Update Catalog & Synchronize:**
    - In `workplace/refs/catalog.yaml`, update `status: INGESTED` and record the verified sections.
    - Commit the new slice into the `references` Git repository (`git add . && git commit -m "feat(ref): ingest <bibkey> for <module_id>"`).

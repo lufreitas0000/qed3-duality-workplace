@@ -9,7 +9,7 @@ Coordinate the Research & Development (R&D) of the review monograph on construct
 3. **Book Agent:** Translates `VERIFIED` workspace modules into physicist-facing textbook prose (inactive for now).
 
 ## 3. Sprint & Module Execution Protocol (1 Session = 1 Module)
-1. **Interface Segregation (ISP):** Each chat session focuses on **one** module (`src/chXX/chXX_mYY_<topic>.tex`) and ingests **only** its paired 1-to-1 light reference file (`../references/.../ref_chXX_mYY_*.md`) plus `.agents/skills/sk_rd_derivation.md`.
+1. **Interface Segregation (ISP):** Each chat session focuses on **one** module (`src/chXX/chXX_mYY_<topic>.tex`) and ingests **only** its paired 1-to-1 light reference file (`../references-lightweight/.../ref_chXX_mYY_*.md`) plus `.agents/skills/sk_rd_derivation.md`.
 2. **PDD Red -> Green -> Refactor Cycle:**
    - **Red Phase (Specification):** Outline the definitions, lemmas, and theorems to be proven in the module, state the falsifiable consistency checks (Hermiticity, cutoff scaling, limiting cases), and wait for user confirmation.
    - **Green Phase (Constructive Proof):** Generate the complete, zero-skipped-step LaTeX file via POSIX heredoc (`cat << 'INNER_EOF' > src/chXX/chXX_mYY_<topic>.tex`) and verify compilation via `./infra/compile_tex.sh`.

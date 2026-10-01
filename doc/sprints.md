@@ -8,7 +8,7 @@
 - **Infrastructure (Effectful Layer):** Strictly isolated in `infra/` and `tests/` (LaTeX compilation `compile_tex.sh`, log auditing, Julia/Python numerical scripts, Git persistence `git_sync.sh`).
 
 ### 1.2 Mathematical SOLID Principles
-1. **Single Responsibility Principle (SRP):** Each module `.tex` file (`src/chXX/chXX_mYY_*.tex`) and its paired 1-to-1 reference slice (`../references/.../ref_chXX_mYY_*.md`) covers **one** cohesive mathematical stage.
+1. **Single Responsibility Principle (SRP):** Each module `.tex` file (`src/chXX/chXX_mYY_*.tex`) and its paired 1-to-1 reference slice (`../references-lightweight/.../ref_chXX_mYY_*.md`) covers **one** cohesive mathematical stage.
 2. **Open/Closed Principle (OCP):** Once a module passes all verification gates and is marked `VERIFIED`, its operator definitions and proven theorems become **immutable contracts** (closed for modification, open for citation/extension by downstream modules).
 3. **Liskov Substitution Principle (LSP):** Any operator identity (e.g., $\psi_\nu(x)$ or $\rho_\nu(x)$) must preserve all canonical commutators, Hermiticity, periodicity, and $1/L$ finite-size scalings when substituted into composite operators ($H_0$, $H_{\mathrm{int}}$, or correlation functions).
 4. **Interface Segregation Principle (ISP):** Sub-agents in a chat session receive *only* the single module reference file `ref_chXX_mYY_*.md` and `.agents/skills/sk_rd_derivation.md`, eliminating context-window pollution.
