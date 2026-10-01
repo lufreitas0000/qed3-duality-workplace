@@ -4,14 +4,15 @@ This repository is the research and verification workspace for a pedagogical mon
 
 ## Repository roles
 
-The parent workspace `~/Projects/latex_notes/qed3-duality/` contains four cooperating areas:
+The parent workspace `~/Projects/latex_notes/qed3-duality/` contains three Git repositories and a local reference library:
 
 | Path | Role |
 |---|---|
 | `workplace/` | Module-level derivations, tests, planning documents, and automation. |
 | `book/` | Clean monograph assembled from verified workplace modules. |
 | `references/` | Version-controlled Markdown digests and selected source material used by agents. |
-| `References-Full/` | Local full-book PDF library and generated PDF slices; intentionally kept outside Git. |
+| `References-Full/books/` | Local full-book source library; intentionally kept outside Git. |
+| `References-Full/_slices/` | Generated front matter, section, chapter, and Markdown transcription artifacts; intentionally kept outside Git. |
 
 Reference work should begin with the lightweight `ref_*.md` digests in `references/`. Open a full PDF only when a statement, equation, or convention must be checked against the source.
 
@@ -28,7 +29,7 @@ The implemented source tree currently contains the Chapter 1 and Chapter 2 modul
 
 ## Reference cartography and PDF slicing
 
-[`refs/CHAPTER_SLICES_INDEX.md`](refs/CHAPTER_SLICES_INDEX.md) is the main index for the local full-book library. It records each book's complete contents, printed and physical PDF page coordinates, slice paths, and source metadata. The current catalog covers 10 books and 132 chapter or appendix units.
+[`refs/CHAPTER_SLICES_INDEX.md`](refs/CHAPTER_SLICES_INDEX.md) is the main index for the local full-book library. It records each book's complete contents, printed and physical PDF page coordinates, source and slice paths, and document metadata. The current catalog covers 16 source works and 202 chapter, appendix, supplement, or solution units.
 
 Machine-readable chapter maps live in [`refs/chapter_maps/`](refs/chapter_maps/). Two scripts reproduce the extraction workflow:
 

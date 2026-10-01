@@ -1,0 +1,16 @@
+# source_sha256=c480f0a3f9d05d329926fc6c8970cff61476d92f86dcb41f687c967f9e21a0e3
+# source_pdf_pages=825
+# columns=sequence	chapter_id	slug	first_pdf_page	last_pdf_page	printed_pages
+01	ch01	from_particles_to_fields	16	52	3-39
+02	ch02	second_quantization	53	103	40-90
+03	ch03	path_integral	104	183	91-170
+04	ch04	perturbation_theory	184	245	171-232
+05	ch05	broken_symmetry_collective_phenomena	246	324	233-311
+06	ch06	renormalization_group	325	396	312-383
+07	ch07	response_functions	397	433	384-420
+08	ch08	topological_field_theory	434	534	421-521
+09	ch09	relativistic_field_theory	535	584	522-571
+10	ch10	gauge_theory	585	644	572-631
+11	ch11	nonequilibrium_classical	645	709	632-696
+12	ch12	nonequilibrium_quantum	710	778	697-765
+13	appendix	mathematical_appendix	779	815	766-802

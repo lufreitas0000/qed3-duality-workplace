@@ -7,11 +7,57 @@ catalog:
     status: "TODO"
 
   - bibkey: "ReedSimon"
-    citation: "Michael Reed and Barry Simon, Methods of Modern Mathematical Physics I (and selectively II)"
+    citation: "Michael Reed and Barry Simon, Methods of Modern Mathematical Physics, Vols. I-IV"
     tier: 1
     chapters_served: ["chA", "chB", "chC"]
+    source_paths:
+      - "../References-Full/books/Reed Simons V1  Functional Analsys.pdf"
+      - "../References-Full/books/Reed,Simon - V2 - Fourier Analisys and Self Adjointness.pdf"
+      - "../References-Full/books/Reed,Simon - V3 - Scaterring Theory.pdf"
+      - "../References-Full/books/Reed,Simon - V4 - Analysis of Operators.pdf"
+    chapter_maps:
+      - "refs/chapter_maps/reed_simon_v1.chapters.tsv"
+      - "refs/chapter_maps/reed_simon_v2.chapters.tsv"
+      - "refs/chapter_maps/reed_simon_v3.chapters.tsv"
+      - "refs/chapter_maps/reed_simon_v4.chapters.tsv"
     sections_to_ingest: "UNVERIFIED numbering, check edition"
     status: "TODO"
+
+  - bibkey: "AltlandSimons_2023"
+    citation: "Alexander Altland and Ben Simons, Condensed Matter Field Theory, 3rd ed."
+    tier: 1
+    chapters_served: ["chC", "chF", "ch1", "ch2", "ch7"]
+    source_path: "../References-Full/books/Altland, Simons - Condensed Matter Field Theory (2023) compressed.pdf"
+    chapter_map: "refs/chapter_maps/altland_simons_2023.chapters.tsv"
+    sections_to_ingest: "Second quantization, path integrals, response, topology, gauge theory, and nonequilibrium methods"
+    status: "IN_PROGRESS"
+
+  - bibkey: "Simon_FunctionalIntegration"
+    citation: "Barry Simon, Functional Integration and Quantum Physics, 2nd ed."
+    tier: 2
+    chapters_served: ["chA", "chB", "chF"]
+    source_path: "../References-Full/books/Barry Simon - Functional Integration And Quantum Physics (2004).pdf"
+    chapter_map: "refs/chapter_maps/barry_simon_functional_integration_2004.chapters.tsv"
+    sections_to_ingest: "Gaussian processes, Feynman-Kac formula, stochastic calculus, and Euclidean quantum field theory"
+    status: "TODO"
+
+  - bibkey: "Simon_FiniteCompactGroups"
+    citation: "Barry Simon, Representations of Finite and Compact Groups"
+    tier: 2
+    chapters_served: ["chD", "chE"]
+    source_path: "../References-Full/books/Barry Simon - Representations of Finite and Compact Groups (1995).pdf"
+    chapter_map: "refs/chapter_maps/barry_simon_finite_compact_groups_1995.chapters.tsv"
+    sections_to_ingest: "Finite-group representations, compact groups, Haar measure, Peter-Weyl theory, roots, and Weyl characters"
+    status: "TODO"
+
+  - bibkey: "StoneGoldbart_Solutions"
+    citation: "Michael Stone and Paul Goldbart, Solutions to Problems for Mathematics for Physics"
+    tier: 2
+    chapters_served: ["chA", "chD"]
+    source_path: "../References-Full/books/Solutions to Problems for Mathematics for Physics.pdf"
+    chapter_map: "refs/chapter_maps/stone_goldbart_solutions.chapters.tsv"
+    sections_to_ingest: "Selected worked problems corresponding to the available solution chapters"
+    status: "REFERENCE_ONLY"
 
   - bibkey: "BratteliRobinson"
     citation: "Ola Bratteli and Derek W. Robinson, Operator Algebras and Quantum Statistical Mechanics 1 & 2"

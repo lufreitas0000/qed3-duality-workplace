@@ -1,0 +1,5 @@
+# source_sha256=652a67460d9e4d1eaddbca65528ee5544ca0077e9cb2e5472a513193b53200e9
+# source_pdf_pages=468
+# columns=sequence	chapter_id	slug	first_pdf_page	last_pdf_page	printed_pages
+01	ch11	scattering_theory	10	414	1-405
+02	supplement_v4	preprinted_spectral_analysis_sections	415	463	406-454

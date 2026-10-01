@@ -16,6 +16,12 @@
 | `kac_vertex_algebras` | Victor G. Kac, *Vertex Algebras for Beginners* | 5 | Raster scan; one full-page image per PDF page; no embedded OCR text layer. TOC was transcribed from the scanned pages. |
 | `kac_infinite_dimensional_lie_algebras_1995` | Victor G. Kac, *Infinite-Dimensional Lie Algebras* | 14 | Hybrid older scan with searchable OCR text and embedded page images; legacy ITXT page-tree metadata is discarded safely during slicing. |
 | `giamarchi_2004` | Thierry Giamarchi, *Quantum Physics in One Dimension* | 17 | DjVu page scan with a hidden OCR layer. Chapter PDFs were converted with DjVuLibre 3.5.28 and are raster PDFs. |
+| `altland_simons_2023` | Alexander Altland and Ben Simons, *Condensed Matter Field Theory* | 13 | Modern born-digital LaTeX PDF with searchable text, embedded fonts, and vector/raster illustrations. |
+| `barry_simon_functional_integration_2004` | Barry Simon, *Functional Integration and Quantum Physics* | 26 | Searchable older typeset edition processed with Adobe Paper Capture OCR. |
+| `barry_simon_finite_compact_groups_1995` | Barry Simon, *Representations of Finite and Compact Groups* | 11 | Searchable page-image PDF processed by CVISION; PDF bookmarks provide chapter and section coordinates. |
+| `reed_simon_v3` | Michael Reed and Barry Simon, *Methods of Modern Mathematical Physics, Vol. III: Scattering Theory* | 2 | Raster scan; no embedded OCR text layer. Includes one main chapter and preprinted material from Volume IV. |
+| `reed_simon_v4` | Michael Reed and Barry Simon, *Methods of Modern Mathematical Physics, Vol. IV: Analysis of Operators* | 2 | Raster scan; no embedded OCR text layer. |
+| `stone_goldbart_solutions` | Michael Stone and Paul Goldbart, *Solutions to Problems for Mathematics for Physics* | 16 | Born-digital searchable solution manual; solutions are present only for the listed chapters. |
 
 The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the source SHA-256 and total physical page count. Each chapter PDF has a neighboring `.meta.txt` sidecar containing its output checksum and provenance.
 
@@ -24,7 +30,7 @@ The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the sourc
 - **Book key:** `reed_simon_v1`
 - **Edition:** Revised and enlarged edition (1980)
 - **Publisher:** Academic Press
-- **Source:** `Reed Simons V1  Functional Analsys.pdf`
+- **Source:** `books/Reed Simons V1  Functional Analsys.pdf`
 - **Document metadata:** Raster scan; one full-page image per PDF page; no embedded OCR text layer.
 - **Chapter map:** [`reed_simon_v1.chapters.tsv`](chapter_maps/reed_simon_v1.chapters.tsv)
 
@@ -183,7 +189,7 @@ The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the sourc
 - **Book key:** `reed_simon_v2`
 - **Edition:** 1975 edition
 - **Publisher:** Academic Press
-- **Source:** `Reed,Simon - V2 - Fourier Analisys and Self Adjointness.pdf`
+- **Source:** `books/Reed,Simon - V2 - Fourier Analisys and Self Adjointness.pdf`
 - **Document metadata:** Raster scan; one full-page image per PDF page; no embedded OCR text layer.
 - **Chapter map:** [`reed_simon_v2.chapters.tsv`](chapter_maps/reed_simon_v2.chapters.tsv)
 
@@ -253,7 +259,7 @@ The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the sourc
 - **Book key:** `difrancesco_1997`
 - **Edition:** Softcover reprint of the 1997 first edition
 - **Publisher:** Springer-Verlag
-- **Source:** `Di Francesco-Conformal Field Theory(1997).pdf`
+- **Source:** `books/Di Francesco-Conformal Field Theory(1997).pdf`
 - **Document metadata:** TeX-composed book processed by CVISION PDF Compressor; searchable text/OCR layer with full-page images.
 - **Chapter map:** [`difrancesco_1997.chapters.tsv`](chapter_maps/difrancesco_1997.chapters.tsv)
 
@@ -766,7 +772,7 @@ The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the sourc
 - **Book key:** `stone_goldbart_2009`
 - **Edition:** 2009
 - **Publisher:** Cambridge University Press
-- **Source:** `Michael Stone, Paul Goldbart - Mathematics for physics_ a guided tour for graduate students (2009).pdf`
+- **Source:** `books/Michael Stone, Paul Goldbart - Mathematics for physics_ a guided tour for graduate students (2009).pdf`
 - **Document metadata:** Modern searchable typeset PDF; embedded fonts and a small number of illustrations.
 - **Chapter map:** [`stone_goldbart_2009.chapters.tsv`](chapter_maps/stone_goldbart_2009.chapters.tsv)
 
@@ -982,7 +988,7 @@ The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the sourc
 - **Book key:** `tasaki_2020`
 - **Edition:** 2020
 - **Publisher:** Springer
-- **Source:** `Hal Tasaki - Physics and Mathematics of Quantum Many-Body Systems-Springer Nature (2020) (1).pdf`
+- **Source:** `books/Hal Tasaki - Physics and Mathematics of Quantum Many-Body Systems-Springer Nature (2020) (1).pdf`
 - **Document metadata:** Modern born-digital InDesign PDF; searchable text, embedded fonts, and vector/raster illustrations.
 - **Chapter map:** [`tasaki_2020.chapters.tsv`](chapter_maps/tasaki_2020.chapters.tsv)
 
@@ -1183,7 +1189,7 @@ The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the sourc
 - **Book key:** `hall_2013`
 - **Edition:** 2013
 - **Publisher:** Springer
-- **Source:** `Brian Hall - Quantum Theory for Mathematicians(2013).pdf`
+- **Source:** `books/Brian Hall - Quantum Theory for Mathematicians(2013).pdf`
 - **Document metadata:** Modern searchable typeset PDF, subsequently processed by CVISION PDF Compressor.
 - **Chapter map:** [`hall_2013.chapters.tsv`](chapter_maps/hall_2013.chapters.tsv)
 
@@ -1534,7 +1540,7 @@ The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the sourc
 - **Book key:** `senechal_tremblay_bourbonnais`
 - **Edition:** 2004 proceedings volume
 - **Publisher:** Springer / CRM Series in Mathematical Physics
-- **Source:** `David_Sénéchal,_Andre-Marie_Tremblay,_Claude_Bourbonnais_Theoretical_Methods_for_Strongly_Correlated_Electrons.pdf`
+- **Source:** `books/David_Sénéchal,_Andre-Marie_Tremblay,_Claude_Bourbonnais_Theoretical_Methods_for_Strongly_Correlated_Electrons.pdf`
 - **Document metadata:** Born-digital TeX/DVI-to-PostScript production; searchable text with embedded fonts.
 - **Chapter map:** [`senechal_tremblay_bourbonnais.chapters.tsv`](chapter_maps/senechal_tremblay_bourbonnais.chapters.tsv)
 
@@ -1742,7 +1748,7 @@ The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the sourc
 - **Book key:** `kac_vertex_algebras`
 - **Edition:** Second edition (1998)
 - **Publisher:** American Mathematical Society
-- **Source:** `Kac-Vertex-algebras-for-beginners.pdf`
+- **Source:** `books/Kac-Vertex-algebras-for-beginners.pdf`
 - **Document metadata:** Raster scan; one full-page image per PDF page; no embedded OCR text layer. TOC was transcribed from the scanned pages.
 - **Chapter map:** [`kac_vertex_algebras.chapters.tsv`](chapter_maps/kac_vertex_algebras.chapters.tsv)
 
@@ -1824,7 +1830,7 @@ The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the sourc
 - **Book key:** `kac_infinite_dimensional_lie_algebras_1995`
 - **Edition:** Third edition, 1995 printing
 - **Publisher:** Cambridge University Press
-- **Source:** `Kac - Infinite-Dimensional Lie Algebras (1995).pdf`
+- **Source:** `books/Kac - Infinite-Dimensional Lie Algebras (1995).pdf`
 - **Document metadata:** Hybrid older scan with searchable OCR text and embedded page images; legacy ITXT page-tree metadata is discarded safely during slicing.
 - **Chapter map:** [`kac_infinite_dimensional_lie_algebras_1995.chapters.tsv`](chapter_maps/kac_infinite_dimensional_lie_algebras_1995.chapters.tsv)
 
@@ -2096,7 +2102,7 @@ The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the sourc
 - **Book key:** `giamarchi_2004`
 - **Edition:** First published 2003; source filename/catalog key uses 2004
 - **Publisher:** Clarendon Press / Oxford University Press
-- **Source:** `Thierry Giamarchi - Quantum Physics in One Dimension (2004, Clarendon_ Oxford University Press) - libgen.li.djvu`
+- **Source:** `books/Thierry Giamarchi - Quantum Physics in One Dimension (2004, Clarendon_ Oxford University Press) - libgen.li.djvu`
 - **Document metadata:** DjVu page scan with a hidden OCR layer. Chapter PDFs were converted with DjVuLibre 3.5.28 and are raster PDFs.
 - **Chapter map:** [`giamarchi_2004.chapters.tsv`](chapter_maps/giamarchi_2004.chapters.tsv)
 
@@ -2283,6 +2289,469 @@ The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the sourc
 - Index — print p. 421
 
 </details>
+
+## Alexander Altland and Ben Simons — *Condensed Matter Field Theory*
+
+- **Book key:** `altland_simons_2023`
+- **Edition:** Third edition (2023)
+- **Publisher:** Cambridge University Press
+- **Source:** `books/Altland, Simons - Condensed Matter Field Theory (2023) compressed.pdf`
+- **Document metadata:** Modern born-digital LaTeX PDF with searchable text, embedded fonts, and vector/raster illustrations.
+- **Chapter map:** [`altland_simons_2023.chapters.tsv`](chapter_maps/altland_simons_2023.chapters.tsv)
+
+| Unit | Chapter or appendix | Print pages | Physical PDF pages | Chapter PDF |
+|---:|---|---:|---:|---|
+| 01 | From Particles to Fields | 3-39 | 16–52 | [`01_ch01_from_particles_to_fields_pdf016-052.pdf`](../../References-Full/_slices/altland_simons_2023/chapters/01_ch01_from_particles_to_fields_pdf016-052.pdf) |
+| 02 | Second Quantization | 40-90 | 53–103 | [`02_ch02_second_quantization_pdf053-103.pdf`](../../References-Full/_slices/altland_simons_2023/chapters/02_ch02_second_quantization_pdf053-103.pdf) |
+| 03 | Path Integral | 91-170 | 104–183 | [`03_ch03_path_integral_pdf104-183.pdf`](../../References-Full/_slices/altland_simons_2023/chapters/03_ch03_path_integral_pdf104-183.pdf) |
+| 04 | Perturbation Theory | 171-232 | 184–245 | [`04_ch04_perturbation_theory_pdf184-245.pdf`](../../References-Full/_slices/altland_simons_2023/chapters/04_ch04_perturbation_theory_pdf184-245.pdf) |
+| 05 | Broken Symmetry and Collective Phenomena | 233-311 | 246–324 | [`05_ch05_broken_symmetry_collective_phenomena_pdf246-324.pdf`](../../References-Full/_slices/altland_simons_2023/chapters/05_ch05_broken_symmetry_collective_phenomena_pdf246-324.pdf) |
+| 06 | Renormalization Group | 312-383 | 325–396 | [`06_ch06_renormalization_group_pdf325-396.pdf`](../../References-Full/_slices/altland_simons_2023/chapters/06_ch06_renormalization_group_pdf325-396.pdf) |
+| 07 | Response Functions | 384-420 | 397–433 | [`07_ch07_response_functions_pdf397-433.pdf`](../../References-Full/_slices/altland_simons_2023/chapters/07_ch07_response_functions_pdf397-433.pdf) |
+| 08 | Topological Field Theory | 421-521 | 434–534 | [`08_ch08_topological_field_theory_pdf434-534.pdf`](../../References-Full/_slices/altland_simons_2023/chapters/08_ch08_topological_field_theory_pdf434-534.pdf) |
+| 09 | Relativistic Field Theory | 522-571 | 535–584 | [`09_ch09_relativistic_field_theory_pdf535-584.pdf`](../../References-Full/_slices/altland_simons_2023/chapters/09_ch09_relativistic_field_theory_pdf535-584.pdf) |
+| 10 | Gauge Theory | 572-631 | 585–644 | [`10_ch10_gauge_theory_pdf585-644.pdf`](../../References-Full/_slices/altland_simons_2023/chapters/10_ch10_gauge_theory_pdf585-644.pdf) |
+| 11 | Nonequilibrium (Classical) | 632-696 | 645–709 | [`11_ch11_nonequilibrium_classical_pdf645-709.pdf`](../../References-Full/_slices/altland_simons_2023/chapters/11_ch11_nonequilibrium_classical_pdf645-709.pdf) |
+| 12 | Nonequilibrium (Quantum) | 697-765 | 710–778 | [`12_ch12_nonequilibrium_quantum_pdf710-778.pdf`](../../References-Full/_slices/altland_simons_2023/chapters/12_ch12_nonequilibrium_quantum_pdf710-778.pdf) |
+| 13 | Mathematical Appendix | 766-802 | 779–815 | [`13_appendix_mathematical_appendix_pdf779-815.pdf`](../../References-Full/_slices/altland_simons_2023/chapters/13_appendix_mathematical_appendix_pdf779-815.pdf) |
+
+<details>
+<summary><strong>Full contents, including sections</strong></summary>
+
+### 01 — From Particles to Fields
+- **1.1** Classical Harmonic Chain: Phonons — print p. 5
+- **1.2** Functional Analysis and Variational Principles — print p. 13
+- **1.3** Maxwell’s Equations as a Variational Principle — print p. 17
+- **1.4** Quantum Chain — print p. 21
+- **1.5** Quantum Electrodynamics — print p. 26
+- **1.6** Noether’s Theorem — print p. 30
+- **1.7** Summary and Outlook — print p. 35
+- **1.8** Problems — print p. 35
+
+### 02 — Second Quantization
+- **2.1** Introduction to Second Quantization — print p. 41
+- **2.2** Applications of Second Quantization — print p. 51
+- **2.3** Summary and Outlook — print p. 79
+- **2.4** Problems — print p. 80
+
+### 03 — Path Integral
+- **3.1** The Path Integral: General Formalism — print p. 91
+- **3.2** Construction of the Path Integral — print p. 93
+- **3.3** Advanced Applications of the Feynman Path Integral — print p. 109
+- **3.4** Construction of the Many-Body Field Integral — print p. 127
+- **3.5** Field Integral for the Quantum Partition Function — print p. 136
+- **3.6** Field-Theoretical Bosonization: A Case Study — print p. 144
+- **3.7** Summary and Outlook — print p. 153
+- **3.8** Problems — print p. 153
+
+### 04 — Perturbation Theory
+- **4.1** General Concept and Low-Order Expansions — print p. 172
+- **4.2** Ground State Energy of the Interacting Electron Gas — print p. 187
+- **4.3** Infinite-Order Expansions — print p. 199
+- **4.4** Perturbation Theory of the Disordered Electron Gas — print p. 208
+- **4.5** Summary and Outlook — print p. 224
+- **4.6** Problems — print p. 225
+
+### 05 — Broken Symmetry and Collective Phenomena
+- **5.1** Case Study: Plasma Theory of the Electron Gas — print p. 234
+- **5.2** Bose–Einstein Condensation and Superfluidity — print p. 242
+- **5.3** Superconductivity — print p. 257
+- **5.4** Field Theory of the Disordered Electron Gas — print p. 286
+- **5.5** Summary and Outlook — print p. 293
+- **5.6** Problems — print p. 294
+
+### 06 — Renormalization Group
+- **6.1** Renormalization: Two Examples — print p. 314
+- **6.2** Renormalization Group: General Theory — print p. 329
+- **6.3** RG Analysis of the Ferromagnetic Transition — print p. 342
+- **6.4** RG Analysis of the Nonlinear σ-Model — print p. 353
+- **6.5** Berezinskii–Kosterlitz–Thouless Transition — print p. 360
+- **6.6** Summary and Outlook — print p. 372
+- **6.7** Problems — print p. 372
+
+### 07 — Response Functions
+- **7.1** Experimental Approaches to Condensed Matter — print p. 384
+- **7.2** Linear Response Theory — print p. 390
+- **7.3** Analytic Structure of Correlation Functions — print p. 393
+- **7.4** Electromagnetic Linear Response — print p. 407
+- **7.5** Summary and Outlook — print p. 413
+- **7.6** Problems — print p. 414
+
+### 08 — Topological Field Theory
+- **8.1** Topological Quantum Matter — print p. 422
+- **8.2** Example: Particle on a Ring — print p. 431
+- **8.3** Homotopy — print p. 434
+- **8.4** θ-Terms — print p. 437
+- **8.5** Wess–Zumino Terms — print p. 472
+- **8.6** Chern–Simons Terms — print p. 491
+- **8.7** Summary and Outlook — print p. 508
+- **8.8** Problems — print p. 509
+
+### 09 — Relativistic Field Theory
+- **9.1** Dirac Theory — print p. 523
+- **9.2** Anomalies — print p. 543
+- **9.3** Summary and Outlook — print p. 558
+- **9.4** Problems — print p. 559
+
+### 10 — Gauge Theory
+- **10.1** Geometric Approach to Gauge Theory — print p. 573
+- **10.2** Connections — print p. 584
+- **10.3** Lattice Gauge Theory — print p. 595
+- **10.4** Quantum Lattice Gauge Theory — print p. 603
+- **10.5** Topological Gauge Theory — print p. 612
+- **10.6** Summary and Outlook — print p. 623
+- **10.7** Problems — print p. 624
+
+### 11 — Nonequilibrium (Classical)
+- **11.1** Fundamental Concepts of Nonequilibrium Statistical Mechanics — print p. 633
+- **11.2** Langevin Theory — print p. 636
+- **11.3** Boltzmann Kinetic Theory — print p. 646
+- **11.4** Stochastic Processes — print p. 652
+- **11.5** Field Theory I: Zero-Dimensional Theories — print p. 662
+- **11.6** Field Theory II: Higher Dimensions — print p. 670
+- **11.7** Field Theory III: Applications — print p. 679
+- **11.8** Summary and Outlook — print p. 686
+- **11.9** Problems — print p. 687
+
+### 12 — Nonequilibrium (Quantum)
+- **12.1** Prelude: Quantum Master Equation — print p. 698
+- **12.2** Keldysh Field Theory: Basics — print p. 705
+- **12.3** Particle Coupled to an Environment — print p. 720
+- **12.4** Fermion Keldysh Theory — print p. 724
+- **12.5** Kinetic Equation — print p. 728
+- **12.6** Non-equilibrium Quantum Transport — print p. 733
+- **12.7** Full Counting Statistics — print p. 747
+- **12.8** Summary and Outlook — print p. 753
+- **12.9** Problems — print p. 754
+
+### 13 — Mathematical Appendix
+- **A.1** Differential Geometry and Differential Forms — print p. 766
+- **A.2** Elements of Probability Theory — print p. 780
+- **A.3** Conformal Field Theory Essentials — print p. 785
+- **A.4** Fourier and Wigner Transforms — print p. 799
+
+</details>
+
+## Barry Simon — *Functional Integration and Quantum Physics*
+
+- **Book key:** `barry_simon_functional_integration_2004`
+- **Edition:** Second edition (2005 printing; 2004 catalog metadata)
+- **Publisher:** AMS Chelsea Publishing
+- **Source:** `books/Barry Simon - Functional Integration And Quantum Physics (2004).pdf`
+- **Document metadata:** Searchable older typeset edition processed with Adobe Paper Capture OCR.
+- **Chapter map:** [`barry_simon_functional_integration_2004.chapters.tsv`](chapter_maps/barry_simon_functional_integration_2004.chapters.tsv)
+
+| Unit | Chapter | Print pages | Physical PDF pages | Chapter PDF |
+|---:|---|---:|---:|---|
+| 01 | Introduction | 1-7 | 17–23 | [`01_ch01_introduction_pdf017-023.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/01_ch01_introduction_pdf017-023.pdf) |
+| 02 | Construction of Gaussian Processes | 8-16 | 24–32 | [`02_ch02_construction_gaussian_processes_pdf024-032.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/02_ch02_construction_gaussian_processes_pdf024-032.pdf) |
+| 03 | Some Fundamental Tools of Probability Theory | 17-31 | 33–47 | [`03_ch03_fundamental_tools_probability_pdf033-047.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/03_ch03_fundamental_tools_probability_pdf033-047.pdf) |
+| 04 | The Wiener Process, the Oscillator Process, and the Brownian Bridge | 32-42 | 48–58 | [`04_ch04_wiener_oscillator_brownian_bridge_pdf048-058.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/04_ch04_wiener_oscillator_brownian_bridge_pdf048-058.pdf) |
+| 05 | Regularity Properties I | 43-47 | 59–63 | [`05_ch05_regularity_properties_one_pdf059-063.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/05_ch05_regularity_properties_one_pdf059-063.pdf) |
+| 06 | The Feynman–Kac Formula | 48-59 | 64–75 | [`06_ch06_feynman_kac_formula_pdf064-075.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/06_ch06_feynman_kac_formula_pdf064-075.pdf) |
+| 07 | Regularity and Recurrence Properties II | 60-87 | 76–103 | [`07_ch07_regularity_recurrence_properties_two_pdf076-103.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/07_ch07_regularity_recurrence_properties_two_pdf076-103.pdf) |
+| 08 | The Birman–Schwinger Kernel and Lieb’s Formula | 88-92 | 104–108 | [`08_ch08_birman_schwinger_kernel_lieb_formula_pdf104-108.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/08_ch08_birman_schwinger_kernel_lieb_formula_pdf104-108.pdf) |
+| 09 | Phase Space Bounds | 93-104 | 109–120 | [`09_ch09_phase_space_bounds_pdf109-120.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/09_ch09_phase_space_bounds_pdf109-120.pdf) |
+| 10 | The Classical Limit | 105-113 | 121–129 | [`10_ch10_classical_limit_pdf121-129.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/10_ch10_classical_limit_pdf121-129.pdf) |
+| 11 | Recurrence and Weak Coupling | 114-118 | 130–134 | [`11_ch11_recurrence_weak_coupling_pdf130-134.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/11_ch11_recurrence_weak_coupling_pdf130-134.pdf) |
+| 12 | Correlation Inequalities | 119-135 | 135–151 | [`12_ch12_correlation_inequalities_pdf135-151.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/12_ch12_correlation_inequalities_pdf135-151.pdf) |
+| 13 | Other Inequalities: Log Concavity, Symmetric Rearrangement, Conditioning, Hypercontractivity | 136-147 | 152–163 | [`13_ch13_other_inequalities_pdf152-163.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/13_ch13_other_inequalities_pdf152-163.pdf) |
+| 14 | Itô’s Integral | 148-158 | 164–174 | [`14_ch14_ito_integral_pdf164-174.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/14_ch14_ito_integral_pdf164-174.pdf) |
+| 15 | Schrödinger Operators with Magnetic Fields | 159-169 | 175–185 | [`15_ch15_schrodinger_operators_magnetic_fields_pdf175-185.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/15_ch15_schrodinger_operators_magnetic_fields_pdf175-185.pdf) |
+| 16 | Introduction to Stochastic Calculus | 170-173 | 186–189 | [`16_ch16_introduction_stochastic_calculus_pdf186-189.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/16_ch16_introduction_stochastic_calculus_pdf186-189.pdf) |
+| 17 | Donsker’s Theorem | 174-180 | 190–196 | [`17_ch17_donsker_theorem_pdf190-196.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/17_ch17_donsker_theorem_pdf190-196.pdf) |
+| 18 | Laplace’s Method in Function Space | 181-197 | 197–213 | [`18_ch18_laplace_method_function_space_pdf197-213.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/18_ch18_laplace_method_function_space_pdf197-213.pdf) |
+| 19 | Introduction to the Donsker–Varadhan Theory | 198-210 | 214–226 | [`19_ch19_donsker_varadhan_theory_pdf214-226.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/19_ch19_donsker_varadhan_theory_pdf214-226.pdf) |
+| 20 | Perturbation Theory for the Ground State Energy | 211-223 | 227–239 | [`20_ch20_perturbation_ground_state_energy_pdf227-239.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/20_ch20_perturbation_ground_state_energy_pdf227-239.pdf) |
+| 21 | Dirichlet Boundaries and Decoupling Singularities in Scattering Theory | 224-230 | 240–246 | [`21_ch21_dirichlet_boundaries_decoupling_singularities_pdf240-246.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/21_ch21_dirichlet_boundaries_decoupling_singularities_pdf240-246.pdf) |
+| 22 | Crushed Ice and the Wiener Sausage | 231-244 | 247–260 | [`22_ch22_crushed_ice_wiener_sausage_pdf247-260.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/22_ch22_crushed_ice_wiener_sausage_pdf247-260.pdf) |
+| 23 | Statistical Mechanics of Charged Particles with Positive Definite Interactions | 245-251 | 261–267 | [`23_ch23_statistical_mechanics_charged_particles_pdf261-267.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/23_ch23_statistical_mechanics_charged_particles_pdf261-267.pdf) |
+| 24 | An Introduction to Euclidean Quantum Field Theory | 252-257 | 268–273 | [`24_ch24_euclidean_quantum_field_theory_pdf268-273.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/24_ch24_euclidean_quantum_field_theory_pdf268-273.pdf) |
+| 25 | Properties of Eigenfunctions, Wave Packets, and Green’s Functions | 258-271 | 274–287 | [`25_ch25_eigenfunctions_wave_packets_green_functions_pdf274-287.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/25_ch25_eigenfunctions_wave_packets_green_functions_pdf274-287.pdf) |
+| 26 | Inverse Problems and the Feynman–Kac Formula | 272-278 | 288–294 | [`26_ch26_inverse_problems_feynman_kac_pdf288-294.pdf`](../../References-Full/_slices/barry_simon_functional_integration_2004/chapters/26_ch26_inverse_problems_feynman_kac_pdf288-294.pdf) |
+
+The printed contents lists these 26 numbered units without subordinate section entries. It groups them into seven parts: Introduction (1–3), The Basic Processes (4–7), Bound State Problems (8–11), Inequalities (12–13), Magnetic Fields and Stochastic Integrals (14–16), Asymptotics (17–19), and Other Topics (20–26).
+
+## Barry Simon — *Representations of Finite and Compact Groups*
+
+- **Book key:** `barry_simon_finite_compact_groups_1995`
+- **Edition:** 1996 printing
+- **Publisher:** American Mathematical Society
+- **Source:** `books/Barry Simon - Representations of Finite and Compact Groups (1995).pdf`
+- **Document metadata:** Searchable page-image PDF processed by CVISION; PDF bookmarks provide chapter and section coordinates.
+- **Chapter map:** [`barry_simon_finite_compact_groups_1995.chapters.tsv`](chapter_maps/barry_simon_finite_compact_groups_1995.chapters.tsv)
+
+| Unit | Chapter or appendix | Print pages | Physical PDF pages | Chapter PDF |
+|---:|---|---:|---:|---|
+| 01 | Groups and Counting Principles | 1-20 | 13–32 | [`01_ch01_groups_counting_principles_pdf013-032.pdf`](../../References-Full/_slices/barry_simon_finite_compact_groups_1995/chapters/01_ch01_groups_counting_principles_pdf013-032.pdf) |
+| 02 | Fundamentals of Group Representations | 21-34 | 33–46 | [`02_ch02_fundamentals_group_representations_pdf033-046.pdf`](../../References-Full/_slices/barry_simon_finite_compact_groups_1995/chapters/02_ch02_fundamentals_group_representations_pdf033-046.pdf) |
+| 03 | Abstract Theory of Representations of Finite Groups | 35-64 | 47–76 | [`03_ch03_abstract_representations_finite_groups_pdf047-076.pdf`](../../References-Full/_slices/barry_simon_finite_compact_groups_1995/chapters/03_ch03_abstract_representations_finite_groups_pdf047-076.pdf) |
+| 04 | Abelian and Clifford Groups | 65-76 | 77–88 | [`04_ch04_abelian_clifford_groups_pdf077-088.pdf`](../../References-Full/_slices/barry_simon_finite_compact_groups_1995/chapters/04_ch04_abelian_clifford_groups_pdf077-088.pdf) |
+| 05 | Semidirect Products and Induced Representations | 77-94 | 89–106 | [`05_ch05_semidirect_products_induced_representations_pdf089-106.pdf`](../../References-Full/_slices/barry_simon_finite_compact_groups_1995/chapters/05_ch05_semidirect_products_induced_representations_pdf089-106.pdf) |
+| 06 | The Symmetric Groups | 95-120 | 107–132 | [`06_ch06_symmetric_groups_pdf107-132.pdf`](../../References-Full/_slices/barry_simon_finite_compact_groups_1995/chapters/06_ch06_symmetric_groups_pdf107-132.pdf) |
+| 07 | Compact Groups | 121-164 | 133–176 | [`07_ch07_compact_groups_pdf133-176.pdf`](../../References-Full/_slices/barry_simon_finite_compact_groups_1995/chapters/07_ch07_compact_groups_pdf133-176.pdf) |
+| 08 | The Structure of Compact Semisimple Groups | 165-204 | 177–216 | [`08_ch08_structure_compact_semisimple_groups_pdf177-216.pdf`](../../References-Full/_slices/barry_simon_finite_compact_groups_1995/chapters/08_ch08_structure_compact_semisimple_groups_pdf177-216.pdf) |
+| 09 | The Representations of Compact Semisimple Groups | 205-252 | 217–264 | [`09_ch09_representations_compact_semisimple_groups_pdf217-264.pdf`](../../References-Full/_slices/barry_simon_finite_compact_groups_1995/chapters/09_ch09_representations_compact_semisimple_groups_pdf217-264.pdf) |
+| 10 | Appendix A: Multilinear Algebra | 253-256 | 265–268 | [`10_appendix_a_multilinear_algebra_pdf265-268.pdf`](../../References-Full/_slices/barry_simon_finite_compact_groups_1995/chapters/10_appendix_a_multilinear_algebra_pdf265-268.pdf) |
+| 11 | Appendix B: Analysis of Self-Adjoint Hilbert–Schmidt Operators | 257-260 | 269–272 | [`11_appendix_b_self_adjoint_hilbert_schmidt_operators_pdf269-272.pdf`](../../References-Full/_slices/barry_simon_finite_compact_groups_1995/chapters/11_appendix_b_self_adjoint_hilbert_schmidt_operators_pdf269-272.pdf) |
+
+<details>
+<summary><strong>Full contents, including sections</strong></summary>
+
+### 01 — Groups and Counting Principles
+- **1** Groups — print p. 1
+- **2** G-spaces — print p. 2
+- **3** Direct and semidirect products — print p. 5
+- **4** Finite groups of rotations — print p. 11
+- **5** The Platonic groups — print p. 13
+- **6** The Sylow theorems — print p. 16
+- **7** Counting and group structure — print p. 18
+
+### 02 — Fundamentals of Group Representations
+- **1** Definition and unitarity — print p. 21
+- **2** Irreducibility and complete reduction — print p. 23
+- **3** The group algebra and the regular representations — print p. 25
+- **4** Schur’s lemma — print p. 27
+- **5** Tensor products — print p. 29
+- **6** Complex conjugate representations; quaternionic representations — print p. 30
+- **7** One-dimensional representations — print p. 34
+
+### 03 — Abstract Theory of Representations of Finite Groups
+- **1** Orthogonality relations and the first fundamental relation — print p. 36
+- **2** Characters, class functions, and conjugacy classes — print p. 39
+- **3** One-dimensional representations — print p. 42
+- **4** The dimension theorem — print p. 43
+- **5** The theorem of Frobenius and Schur — print p. 47
+- **Appendix to III.5** Representations on real and quaternionic vector spaces — print p. 50
+- **6** Representations and group structure — print p. 55
+- **7** Projections in the group algebra — print p. 56
+- **8** Fourier analysis — print p. 57
+- **9** Direct products — print p. 59
+- **10** Restrictions — print p. 59
+- **11** Subgroups of index 2 — print p. 60
+- **12** Examples — print p. 62
+
+### 04 — Abelian and Clifford Groups
+- **1** Structure of finite abelian groups — print p. 65
+- **2** Representations of abelian groups — print p. 67
+- **3** The Clifford group — print p. 68
+
+### 05 — Semidirect Products and Induced Representations
+- **1** Frobenius theory of semidirect products — print p. 77
+- **2** Examples of the semidirect product theory — print p. 81
+- **3** Induced representations — print p. 83
+- **4** The Frobenius character formula — print p. 85
+- **5** The Frobenius reciprocity theorem — print p. 89
+- **6** Mackey irreducibility criterion — print p. 91
+- **7** Semidirect products, revisited — print p. 93
+
+### 06 — The Symmetric Groups
+- **1** Permutations and classes — print p. 95
+- **2** Young frames and Young tableaux — print p. 96
+- **3** Projections in A(Sₙ): classification of representations — print p. 101
+- **4** Branching relations — print p. 108
+- **5** The Frobenius character formula — print p. 109
+- **6** Consequences of the character formula — print p. 117
+
+### 07 — Compact Groups
+- **1** C∞-manifolds: a review — print p. 121
+- **2** Lie groups and Lie algebras — print p. 128
+- **3** Haar measure on Lie groups — print p. 133
+- **4** Matrix groups — print p. 135
+- **5** The classical groups — print p. 137
+- **6** Homotopy and covering groups — print p. 146
+- **7** Spin groups — print p. 152
+- **8** The structure of compact groups — print p. 155
+- **9** Representations of compact groups: abstract theory — print p. 155
+- **10** The Peter–Weyl theorem — print p. 158
+
+### 08 — The Structure of Compact Semisimple Groups
+- **1** Maximal tori — print p. 165
+- **2** The Killing form — print p. 170
+- **3** Representations of tori — print p. 173
+- **4** Representations of SU(2) and sl(2, ℂ) — print p. 174
+- **5** Roots and root spaces — print p. 177
+- **6** Fundamental systems and their classification — print p. 183
+- **7** Regular and singular elements — print p. 189
+- **8** The Weyl group — print p. 192
+- **9** The classical groups — print p. 196
+
+### 09 — The Representations of Compact Semisimple Groups
+- **1** Geometry of the Cartan–Stiefel diagram — print p. 206
+- **2** Geometry of integral forms — print p. 210
+- **3** The Weyl integration formula — print p. 213
+- **4** Maximal weights — print p. 215
+- **5** Classification theorem and Weyl character formula — print p. 217
+- **6** Consequences of the Weyl character formula — print p. 219
+- **7** Representation theory: the algebraic approach — print p. 225
+- **8** Representations of the classical groups — print p. 227
+- **9** Determinant formulas for the classical characters — print p. 237
+- **10** Real and quaternionic representations of the classical groups — print p. 242
+- **11** Tensors, permutations, and the Frobenius character formula — print p. 246
+
+### 10–11 — Appendices
+- **A** Multilinear algebra — print p. 253
+- **B** Analysis of self-adjoint Hilbert–Schmidt operators — print p. 257
+
+</details>
+
+## Michael Reed and Barry Simon — *Methods of Modern Mathematical Physics, Vol. III: Scattering Theory*
+
+- **Book key:** `reed_simon_v3`
+- **Edition:** 1979 edition
+- **Publisher:** Academic Press
+- **Source:** `books/Reed,Simon - V3 - Scaterring Theory.pdf`
+- **Document metadata:** Raster scan; one full-page image per PDF page; no embedded OCR text layer.
+- **Chapter map:** [`reed_simon_v3.chapters.tsv`](chapter_maps/reed_simon_v3.chapters.tsv)
+
+| Unit | Chapter or supplement | Print pages | Physical PDF pages | Chapter PDF |
+|---:|---|---:|---:|---|
+| 01 | XI: Scattering Theory | 1-405 | 10–414 | [`01_ch11_scattering_theory_pdf010-414.pdf`](../../References-Full/_slices/reed_simon_v3/chapters/01_ch11_scattering_theory_pdf010-414.pdf) |
+| 02 | Material preprinted from Volume IV: Sections XIII.6–XIII.8 | 406-454 | 415–463 | [`02_supplement_v4_preprinted_spectral_analysis_sections_pdf415-463.pdf`](../../References-Full/_slices/reed_simon_v3/chapters/02_supplement_v4_preprinted_spectral_analysis_sections_pdf415-463.pdf) |
+
+<details>
+<summary><strong>Full contents, including sections</strong></summary>
+
+### 01 — XI: Scattering Theory
+- **1** An overview of scattering phenomena — print p. 1
+- **2** Classical particle scattering — print p. 5
+- **3** Basic principles of scattering in Hilbert space — print p. 16
+- **Appendix 1** Stationary phase methods — print p. 37
+- **Appendix 2** Trace ideal properties of f(x)g(−i∇) — print p. 47
+- **Appendix 3** General invariance principle for wave operators — print p. 49
+- **4** Quantum scattering I: two-body case — print p. 54
+- **5** Quantum scattering II: N-body case — print p. 75
+- **6** Quantum scattering III: eigenfunction expansions — print p. 96
+- **Appendix** Introduction to eigenfunction expansions by the abstract spectral method — print p. 112
+- **7** Quantum scattering IV: dispersion relations — print p. 116
+- **8** Quantum scattering V: central potentials — print p. 121
+  - **A** Reduction of the S-matrix by symmetries — print p. 121
+  - **B** Partial wave expansion and convergence — print p. 127
+  - **C** Phase shifts and the Schrödinger equation — print p. 129
+  - **D** Variable phase equation — print p. 133
+  - **E** Jost functions and Levinson’s theorem — print p. 136
+  - **F** Analyticity of the partial-wave amplitude for generalized Yukawa potentials — print p. 143
+  - **G** Kohn variational principle — print p. 147
+- **Appendix 1** Legendre polynomials and spherical Bessel functions — print p. 149
+- **Appendix 2** Jost solutions for oscillatory potentials — print p. 155
+- **Appendix 3** Jost solutions and fundamental problems of scattering theory — print p. 164
+- **9** Long-range potentials — print p. 169
+- **10** Optical and acoustical scattering I: Schrödinger operator methods — print p. 184
+- **Appendix** Trace class properties of Green’s functions — print p. 203
+- **11** Optical and acoustical scattering II: Lax–Phillips method — print p. 210
+- **Appendix** The twisting trick — print p. 241
+- **12** Linear Boltzmann equation — print p. 243
+- **13** Nonlinear wave equations — print p. 252
+- **Appendix** Conserved currents — print p. 278
+- **14** Spin wave scattering — print p. 285
+- **15** Quantum field scattering I: external field — print p. 293
+- **16** Quantum field scattering II: Haag–Ruelle theory — print p. 317
+- **17** Phase-space analysis of scattering and spectral theory — print p. 331
+- **Appendix** The Enss theorem — print p. 340
+- **Notes** — print p. 344
+- **Notes on scattering theory on C*-algebras** — print p. 382
+- **Problems** — print p. 385
+
+### 02 — Material Preprinted from Volume IV
+- **XIII.6** Absence of singular continuous spectrum I: general theory — print p. 406
+- **XIII.7** Absence of singular continuous spectrum II: smooth perturbations — print p. 411
+  - **A** Weakly coupled quantum systems — print p. 421
+  - **B** Positive commutators and repulsive potentials — print p. 427
+  - **C** Local smoothness and wave operators for repulsive potentials — print p. 433
+- **XIII.8** Absence of singular continuous spectrum III: weighted L² spaces — print p. 438
+- **Notes** — print p. 447
+- **Problems** — print p. 450
+
+</details>
+
+## Michael Reed and Barry Simon — *Methods of Modern Mathematical Physics, Vol. IV: Analysis of Operators*
+
+- **Book key:** `reed_simon_v4`
+- **Edition:** 1978 edition
+- **Publisher:** Academic Press
+- **Source:** `books/Reed,Simon - V4 - Analysis of Operators.pdf`
+- **Document metadata:** Raster scan; no embedded OCR text layer.
+- **Chapter map:** [`reed_simon_v4.chapters.tsv`](chapter_maps/reed_simon_v4.chapters.tsv)
+
+| Unit | Chapter | Print pages | Physical PDF pages | Chapter PDF |
+|---:|---|---:|---:|---|
+| 01 | XII: Perturbation of Point Spectra | 1-74 | 11–84 | [`01_ch12_perturbation_point_spectra_pdf011-084.pdf`](../../References-Full/_slices/reed_simon_v4/chapters/01_ch12_perturbation_point_spectra_pdf011-084.pdf) |
+| 02 | XIII: Spectral Analysis | 75-386 | 85–396 | [`02_ch13_spectral_analysis_pdf085-396.pdf`](../../References-Full/_slices/reed_simon_v4/chapters/02_ch13_spectral_analysis_pdf085-396.pdf) |
+
+<details>
+<summary><strong>Full contents, including sections</strong></summary>
+
+### 01 — XII: Perturbation of Point Spectra
+- **1** Finite-dimensional perturbation theory — print p. 1
+- **Appendix** Algebraic and geometric multiplicity of eigenvalues of finite matrices — print p. 9
+- **2** Regular perturbation theory — print p. 10
+- **3** Asymptotic perturbation theory — print p. 25
+- **4** Summability methods in perturbation theory — print p. 38
+- **5** Spectral concentration — print p. 45
+- **6** Resonances and the Fermi golden rule — print p. 51
+- **Notes** — print p. 60
+- **Problems** — print p. 69
+
+### 02 — XIII: Spectral Analysis
+- **1** The min–max principle — print p. 75
+- **2** Bound states of Schrödinger operators I: quantitative methods — print p. 79
+- **3** Bound states of Schrödinger operators II: qualitative theory — print p. 86
+  - **A** Is σ_disc(H) finite or infinite? — print p. 86
+  - **B** Bounds on N(V) in the central case — print p. 90
+  - **C** Bounds on N(V) in the general two-body case — print p. 98
+- **4** Locating the essential spectrum I: Weyl’s theorem — print p. 106
+- **5** Locating the essential spectrum III: the HVZ theorem — print p. 120
+- **6** Absence of singular continuous spectrum I: general theory — print p. 136
+- **7** Absence of singular continuous spectrum II: smooth perturbations — print p. 141
+  - **A** Weakly coupled quantum systems — print p. 151
+  - **B** Positive commutators and repulsive potentials — print p. 157
+  - **C** Local smoothness and wave operators for repulsive potentials — print p. 163
+- **8** Absence of singular continuous spectrum III: weighted L² spaces — print p. 168
+- **9** Spectrum of tensor products — print p. 177
+- **10** Absence of singular continuous spectrum IV: dilation analytic potentials — print p. 183
+- **11** Properties of eigenfunctions — print p. 191
+- **12** Nondegeneracy of the ground state — print p. 201
+- **Appendix 1** Beurling–Deny criteria — print p. 209
+- **Appendix 2** Lévy–Khintchine formula — print p. 212
+- **13** Absence of positive eigenvalues — print p. 222
+- **Appendix** Unique continuation theorems for Schrödinger operators — print p. 239
+- **14** Compactness criteria and operators with compact resolvent — print p. 244
+- **15** Asymptotic distribution of eigenvalues — print p. 260
+- **16** Schrödinger operators with periodic potentials — print p. 279
+- **17** Introduction to the spectral theory of non-self-adjoint operators — print p. 316
+- **Notes** — print p. 338
+- **Problems** — print p. 364
+
+</details>
+
+## Michael Stone and Paul Goldbart — *Solutions to Problems for Mathematics for Physics*
+
+- **Book key:** `stone_goldbart_solutions`
+- **Relation:** Solution manual for *Mathematics for Physics: A Guided Tour for Graduate Students*
+- **Source:** `books/Solutions to Problems for Mathematics for Physics.pdf`
+- **Document metadata:** Born-digital searchable PDF. The manual contains solutions only for Chapters 1–8, 10–12, 14–15, and 17–19.
+- **Chapter map:** [`stone_goldbart_solutions.chapters.tsv`](chapter_maps/stone_goldbart_solutions.chapters.tsv)
+
+| Unit | Solution chapter | Manual pages | Physical PDF pages | Chapter PDF |
+|---:|---|---:|---:|---|
+| 01 | Chapter 1: Calculus of Variations | 1-14 | 2–15 | [`01_ch01_solutions_calculus_variations_solutions_pdf002-015.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/01_ch01_solutions_calculus_variations_solutions_pdf002-015.pdf) |
+| 02 | Chapter 2: Function Spaces | 15-30 | 16–31 | [`02_ch02_solutions_function_spaces_solutions_pdf016-031.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/02_ch02_solutions_function_spaces_solutions_pdf016-031.pdf) |
+| 03 | Chapter 3: Linear Ordinary Differential Equations | 31-35 | 32–36 | [`03_ch03_solutions_linear_ode_solutions_pdf032-036.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/03_ch03_solutions_linear_ode_solutions_pdf032-036.pdf) |
+| 04 | Chapter 4: Linear Differential Operators | 36-50 | 37–51 | [`04_ch04_solutions_linear_differential_operators_solutions_pdf037-051.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/04_ch04_solutions_linear_differential_operators_solutions_pdf037-051.pdf) |
+| 05 | Chapter 5: Green Functions | 51-60 | 52–61 | [`05_ch05_solutions_green_functions_solutions_pdf052-061.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/05_ch05_solutions_green_functions_solutions_pdf052-061.pdf) |
+| 06 | Chapter 6: Partial Differential Equations | 61-77 | 62–78 | [`06_ch06_solutions_partial_differential_equations_solutions_pdf062-078.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/06_ch06_solutions_partial_differential_equations_solutions_pdf062-078.pdf) |
+| 07 | Chapter 7: Mathematics of Real Waves | 78-88 | 79–89 | [`07_ch07_solutions_real_waves_solutions_pdf079-089.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/07_ch07_solutions_real_waves_solutions_pdf079-089.pdf) |
+| 08 | Chapter 8: Special Functions | 89-96 | 90–97 | [`08_ch08_solutions_special_functions_solutions_pdf090-097.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/08_ch08_solutions_special_functions_solutions_pdf090-097.pdf) |
+| 09 | Chapter 10: Vectors and Tensors | 97-117 | 98–118 | [`09_ch10_solutions_vectors_tensors_solutions_pdf098-118.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/09_ch10_solutions_vectors_tensors_solutions_pdf098-118.pdf) |
+| 10 | Chapter 11: Differential Calculus on Manifolds | 118-144 | 119–145 | [`10_ch11_solutions_differential_calculus_manifolds_solutions_pdf119-145.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/10_ch11_solutions_differential_calculus_manifolds_solutions_pdf119-145.pdf) |
+| 11 | Chapter 12: Integration on Manifolds | 145-177 | 146–178 | [`11_ch12_solutions_integration_manifolds_solutions_pdf146-178.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/11_ch12_solutions_integration_manifolds_solutions_pdf146-178.pdf) |
+| 12 | Chapter 14: Groups and Group Representations | 178-180 | 179–181 | [`12_ch14_solutions_groups_representations_solutions_pdf179-181.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/12_ch14_solutions_groups_representations_solutions_pdf179-181.pdf) |
+| 13 | Chapter 15: Lie Groups | 181-185 | 182–186 | [`13_ch15_solutions_lie_groups_solutions_pdf182-186.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/13_ch15_solutions_lie_groups_solutions_pdf182-186.pdf) |
+| 14 | Chapter 17: Complex Analysis | 186-194 | 187–195 | [`14_ch17_solutions_complex_analysis_solutions_pdf187-195.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/14_ch17_solutions_complex_analysis_solutions_pdf187-195.pdf) |
+| 15 | Chapter 18: Applications of Complex Variables | 195-205 | 196–206 | [`15_ch18_solutions_complex_variables_applications_solutions_pdf196-206.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/15_ch18_solutions_complex_variables_applications_solutions_pdf196-206.pdf) |
+| 16 | Chapter 19: Special Functions and Complex Variables | 206-211 | 207–212 | [`16_ch19_solutions_special_functions_complex_variables_solutions_pdf207-212.pdf`](../../References-Full/_slices/stone_goldbart_solutions/chapters/16_ch19_solutions_special_functions_complex_variables_solutions_pdf207-212.pdf) |
+
+The solution manual’s table of contents has no lower-level entries. It contains no chapter files for Chapters 9, 13, or 16, and no solution units for the textbook appendices.
 
 ## Maintenance rules
 

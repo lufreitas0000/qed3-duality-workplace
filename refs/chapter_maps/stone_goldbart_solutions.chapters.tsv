@@ -1,0 +1,19 @@
+# source_sha256=ab71622bacd91b223e5521c03db0a7202f52d92688418bda01c6641a6dfd341b
+# source_pdf_pages=212
+# columns=sequence	chapter_id	slug	first_pdf_page	last_pdf_page	printed_pages
+01	ch01_solutions	calculus_variations_solutions	2	15	1-14
+02	ch02_solutions	function_spaces_solutions	16	31	15-30
+03	ch03_solutions	linear_ode_solutions	32	36	31-35
+04	ch04_solutions	linear_differential_operators_solutions	37	51	36-50
+05	ch05_solutions	green_functions_solutions	52	61	51-60
+06	ch06_solutions	partial_differential_equations_solutions	62	78	61-77
+07	ch07_solutions	real_waves_solutions	79	89	78-88
+08	ch08_solutions	special_functions_solutions	90	97	89-96
+09	ch10_solutions	vectors_tensors_solutions	98	118	97-117
+10	ch11_solutions	differential_calculus_manifolds_solutions	119	145	118-144
+11	ch12_solutions	integration_manifolds_solutions	146	178	145-177
+12	ch14_solutions	groups_representations_solutions	179	181	178-180
+13	ch15_solutions	lie_groups_solutions	182	186	181-185
+14	ch17_solutions	complex_analysis_solutions	187	195	186-194
+15	ch18_solutions	complex_variables_applications_solutions	196	206	195-205
+16	ch19_solutions	special_functions_complex_variables_solutions	207	212	206-211

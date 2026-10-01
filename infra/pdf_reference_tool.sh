@@ -45,13 +45,13 @@ slice options:
 
 Examples:
   ./infra/pdf_reference_tool.sh prepare \
-    --source "../References-Full/Reed Simons V1  Functional Analsys.pdf" \
+    --source "../References-Full/books/Reed Simons V1  Functional Analsys.pdf" \
     --book-key reed_simon_v1 --front-pages 40
 
   ./infra/pdf_reference_tool.sh offset --pdf-page 23 --printed-page 1
 
   ./infra/pdf_reference_tool.sh slice \
-    --source "../References-Full/Reed Simons V1  Functional Analsys.pdf" \
+    --source "../References-Full/books/Reed Simons V1  Functional Analsys.pdf" \
     --book-key reed_simon_v1 --slug chA_m01_metric_banach \
     --printed-pages 1-32 --offset 22 --context 1
 

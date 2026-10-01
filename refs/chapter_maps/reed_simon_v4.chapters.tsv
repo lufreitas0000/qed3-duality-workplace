@@ -1,0 +1,5 @@
+# source_sha256=fbc80fb83f5f0b2c32c7c7c2b8b912975268645a77e8fe5bf2ee1340fba1271f
+# source_pdf_pages=404
+# columns=sequence	chapter_id	slug	first_pdf_page	last_pdf_page	printed_pages
+01	ch12	perturbation_point_spectra	11	84	1-74
+02	ch13	spectral_analysis	85	396	75-386

@@ -1,0 +1,14 @@
+# source_sha256=0fb9cfb40cbce4cd789ad02cae97d5b32350a4e11777f5b728f208bc58a9c5a4
+# source_pdf_pages=280
+# columns=sequence	chapter_id	slug	first_pdf_page	last_pdf_page	printed_pages
+01	ch01	groups_counting_principles	13	32	1-20
+02	ch02	fundamentals_group_representations	33	46	21-34
+03	ch03	abstract_representations_finite_groups	47	76	35-64
+04	ch04	abelian_clifford_groups	77	88	65-76
+05	ch05	semidirect_products_induced_representations	89	106	77-94
+06	ch06	symmetric_groups	107	132	95-120
+07	ch07	compact_groups	133	176	121-164
+08	ch08	structure_compact_semisimple_groups	177	216	165-204
+09	ch09	representations_compact_semisimple_groups	217	264	205-252
+10	appendix_a	multilinear_algebra	265	268	253-256
+11	appendix_b	self_adjoint_hilbert_schmidt_operators	269	272	257-260
