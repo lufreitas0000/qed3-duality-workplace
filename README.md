@@ -29,7 +29,7 @@ The implemented source tree currently contains the Chapter 1 and Chapter 2 modul
 
 ## Reference cartography and PDF slicing
 
-[`refs/CHAPTER_SLICES_INDEX.md`](refs/CHAPTER_SLICES_INDEX.md) is the main index for the local full-book library. It records each book's complete contents, printed and physical PDF page coordinates, source and slice paths, and document metadata. The current catalog covers 16 source works, 202 chapter-level units, and 67 systematic Reed–Simon section units.
+[`refs/CHAPTER_SLICES_INDEX.md`](refs/CHAPTER_SLICES_INDEX.md) is the main index for the local full-book library. It records each book's complete contents, printed and physical PDF page coordinates, source and slice paths, and document metadata. The current catalog covers 28 source PDFs, 16 chapter-indexed works with 202 chapter-level units, and 67 systematic Reed–Simon section units. The full transcript/status audit is maintained separately in [`../references-transcripts/TRANSCRIPT_TOC_STATUS.md`](../references-transcripts/TRANSCRIPT_TOC_STATUS.md).
 
 Machine-readable chapter and section maps live in [`refs/chapter_maps/`](refs/chapter_maps/). Two scripts reproduce the extraction workflow:
 

@@ -10,7 +10,7 @@ export LC_ALL
 SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 WORKPLACE_DIR=$(dirname -- "$SCRIPT_DIR")
 PROJECT_DIR=$(dirname -- "$WORKPLACE_DIR")
-DEFAULT_OUTPUT_ROOT="$PROJECT_DIR/References-Full/_slices"
+DEFAULT_OUTPUT_ROOT="$PROJECT_DIR/reference-source/_slices"
 
 usage() {
     cat <<'USAGE'
@@ -23,7 +23,7 @@ prepare options:
   --source FILE             Complete source PDF (required)
   --book-key KEY            Stable short key, e.g. reed_simon_v1 (required)
   --front-pages N           Number of initial PDF pages; default: 40
-  --output-root DIR         Default: ../References-Full/_slices
+  --output-root DIR         Default: ../reference-source/_slices
   --compress PROFILE        none, lossless, or web; default: lossless
   --ocr MODE                never, auto, or force; default: auto
   --ocr-language LANG       OCRmyPDF language; default: eng
@@ -39,19 +39,19 @@ slice options:
   --offset N                Required with --printed-pages, where
                             PDF page = printed page + N
   --context N               Add N physical pages on each side; default: 1
-  --output-root DIR         Default: ../References-Full/_slices
+  --output-root DIR         Default: ../reference-source/_slices
   --compress PROFILE        none, lossless, or web; default: lossless
   --force                   Replace files made by an earlier identical run
 
 Examples:
   ./infra/pdf_reference_tool.sh prepare \
-    --source "../References-Full/books/Reed Simons V1  Functional Analsys.pdf" \
+    --source "../reference-source/books/Reed Simons V1  Functional Analsys.pdf" \
     --book-key reed_simon_v1 --front-pages 40
 
   ./infra/pdf_reference_tool.sh offset --pdf-page 23 --printed-page 1
 
   ./infra/pdf_reference_tool.sh slice \
-    --source "../References-Full/books/Reed Simons V1  Functional Analsys.pdf" \
+    --source "../reference-source/books/Reed Simons V1  Functional Analsys.pdf" \
     --book-key reed_simon_v1 --slug chA_m01_metric_banach \
     --printed-pages 1-32 --offset 22 --context 1
 

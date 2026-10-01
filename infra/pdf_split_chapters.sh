@@ -11,7 +11,7 @@ export LC_ALL
 SCRIPT_DIR=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 WORKPLACE_DIR=$(dirname -- "$SCRIPT_DIR")
 PROJECT_DIR=$(dirname -- "$WORKPLACE_DIR")
-DEFAULT_OUTPUT_ROOT="$PROJECT_DIR/References-Full/_slices"
+DEFAULT_OUTPUT_ROOT="$PROJECT_DIR/reference-source/_slices"
 
 usage() {
     cat <<'USAGE'

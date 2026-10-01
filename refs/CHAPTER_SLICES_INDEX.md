@@ -4,6 +4,8 @@
 
 ## Library summary
 
+The detailed chapter-and-section transcript inventory, including entries for source works that do not yet have generated chapter slices, is [`../../references-transcripts/TRANSCRIPT_TOC_STATUS.md`](../../references-transcripts/TRANSCRIPT_TOC_STATUS.md). The machine-readable companion is [`catalog.yaml`](catalog.yaml).
+
 | Book key | Book | Chapter units | Source format |
 |---|---|---:|---|
 | `reed_simon_v1` | Michael Reed and Barry Simon, *Methods of Modern Mathematical Physics, Vol. I: Functional Analysis* | 10 | Raster scan; one full-page image per PDF page; no embedded OCR text layer. |
@@ -24,6 +26,8 @@
 | `stone_goldbart_solutions` | Michael Stone and Paul Goldbart, *Solutions to Problems for Mathematics for Physics* | 16 | Born-digital searchable solution manual; solutions are present only for the listed chapters. |
 
 The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the source SHA-256 and total physical page count. Each generated PDF has a neighboring `.meta.txt` sidecar containing its output checksum and provenance. Volumes III and IV of Reed–Simon also have 67 systematic section PDFs; each includes a one-page overlap before and after its core range.
+
+The source vault also contains twelve additional source-only works whose full TOCs and transcript status are tracked in the detailed audit: Sénéchal's bosonization notes, Kac's Bombay lectures, Miranda's *Introduction to Bosonization*, Pressley–Segal's *Loop Groups*, Carey–Hurst's boson–fermion correspondence, Marino's Chern–Simons notes, Affleck's field-theory methods, Mathews–Walker, Baym, Fazekas, Simon's *Convexity*, and the Mattis Luttinger-model anthology. They are cataloged with `SOURCE_ONLY` entries because no reviewed chapter map has yet been committed.
 
 ## Michael Reed and Barry Simon — *Methods of Modern Mathematical Physics, Vol. I: Functional Analysis*
 
@@ -2608,8 +2612,8 @@ The printed contents lists these 26 numbered units without subordinate section e
 
 | Unit | Chapter or supplement | Print pages | Physical PDF pages | Chapter PDF |
 |---:|---|---:|---:|---|
-| 01 | XI: Scattering Theory | 1-405 | 10–414 | [`01_ch11_scattering_theory_pdf010-414.pdf`](../../reference-source/_slices/reed_simon_v3/chapters/01_ch11_scattering_theory_pdf010-414.pdf) |
-| 02 | Material preprinted from Volume IV: Sections XIII.6–XIII.8 | 406-454 | 415–463 | [`02_supplement_v4_preprinted_spectral_analysis_sections_pdf415-463.pdf`](../../reference-source/_slices/reed_simon_v3/chapters/02_supplement_v4_preprinted_spectral_analysis_sections_pdf415-463.pdf) |
+| 01 | XI: Scattering Theory | 1-405 | 10–412 | [`01_ch11_scattering_theory_pdf010-412.pdf`](../../reference-source/_slices/reed_simon_v3/chapters/01_ch11_scattering_theory_pdf010-412.pdf) |
+| 02 | Material preprinted from Volume IV: Sections XIII.6–XIII.8 | 406-454 | 413–459 | [`02_supplement_v4_preprinted_spectral_analysis_sections_pdf413-459.pdf`](../../reference-source/_slices/reed_simon_v3/chapters/02_supplement_v4_preprinted_spectral_analysis_sections_pdf413-459.pdf) |
 
 <details>
 <summary><strong>Full contents, including sections</strong></summary>

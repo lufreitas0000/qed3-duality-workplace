@@ -23,6 +23,8 @@ catalog:
     section_maps:
       - "refs/chapter_maps/reed_simon_v3.sections.tsv"
       - "refs/chapter_maps/reed_simon_v4.sections.tsv"
+    page_map_notes:
+      - "Volume III scan omits printed pages 42-43 and 416-417; use the piecewise offsets recorded in its maps."
     sections_to_ingest: "UNVERIFIED numbering, check edition"
     status: "TODO"
 
@@ -61,6 +63,90 @@ catalog:
     chapter_map: "refs/chapter_maps/stone_goldbart_solutions.chapters.tsv"
     sections_to_ingest: "Selected worked problems corresponding to the available solution chapters"
     status: "REFERENCE_ONLY"
+
+  - bibkey: "Senechal_Bosonization_1999"
+    citation: "David Sénéchal, An Introduction to Bosonization"
+    tier: 1
+    source_path: "../reference-source/books/Sénéchal`_9908262v1.pdf"
+    sections_to_ingest: "Full chapter and section TOC in references-transcripts/TRANSCRIPT_TOC_STATUS.md"
+    status: "SOURCE_ONLY"
+
+  - bibkey: "Kac_Raina_Rozhkovskaya_Bombay"
+    citation: "Victor Kac, Ashok Raina, and Natasha Rozhkovskaya, Bombay Lectures on Highest Weight Representations of Infinite Dimensional Lie Algebras"
+    tier: 2
+    source_path: "../reference-source/books/Kac - Bombay Lectures On Highest Weight Representations Of Infinite Dimensional Lie Algebras.pdf"
+    sections_to_ingest: "Full lecture and section TOC in references-transcripts/TRANSCRIPT_TOC_STATUS.md"
+    status: "SOURCE_ONLY"
+
+  - bibkey: "Miranda_2003_source"
+    citation: "E. Miranda, Introduction to Bosonization"
+    tier: 1
+    source_path: "../reference-source/books/Introduction to Bosonization E. Miranda.pdf"
+    sections_to_ingest: "Sections I-XVIII and appendices"
+    status: "SOURCE_ONLY"
+
+  - bibkey: "Pressley_Segal_1986"
+    citation: "Andrew Pressley and Graeme Segal, Loop Groups"
+    tier: 2
+    source_path: "../reference-source/books/Loop Groups (Oxford Mathematical Monographs) -- Andrew Pressley and Graeme Segal_ -- Oxford mathematical monographs, Oxford science publications, -- isbn13 9780198535355 -- 9b41f4f7ea2d126ca197a58cafa9b35c -- Anna.djvu"
+    sections_to_ingest: "Chapters 1-14 and sections"
+    status: "SOURCE_ONLY"
+
+  - bibkey: "Carey_Hurst_1985"
+    citation: "A. L. Carey and C. A. Hurst, A Note on the Boson-Fermion Correspondence and Infinite Dimensional Groups"
+    tier: 2
+    source_path: "../reference-source/books/Carey_Hurst_1985_Boson-Fermion Correspondence and Infinite Dimensional Groups_1103942536.pdf"
+    sections_to_ingest: "Sections 1-3"
+    status: "SOURCE_ONLY"
+
+  - bibkey: "Marino_2005"
+    citation: "Marcos Mariño, Chern-Simons Theory, Matrix Models, and Topological Strings"
+    tier: 2
+    source_path: "../reference-source/books/Marcos Marino - Chern-Simons Theory, Matrix Models, and Topological Strings (2005).pdf"
+    sections_to_ingest: "Chapters 1-14 and appendices"
+    status: "SOURCE_ONLY"
+
+  - bibkey: "Affleck_1989"
+    citation: "Ian Affleck, Field Theory Methods and Quantum Critical Phenomena"
+    tier: 1
+    source_path: "../reference-source/books/I. Affleck - Field Theory Methods and Quantum Critical Phenomena - Fields, Strings and Critical Phenomena, p. 563-640, (ed. E. Brézin and J. Zinn-Justin, 1990)  -Elsevier Science & Technology (1989).pdf"
+    sections_to_ingest: "Lecture excerpt contents and sections"
+    status: "SOURCE_ONLY"
+
+  - bibkey: "Mathews_Walker_1971"
+    citation: "Jon Mathews and R. L. Walker, Mathematical Methods of Physics"
+    tier: 1
+    source_path: "../reference-source/books/Mathews, Walker - Mathematical Methods of Physics (1971).pdf"
+    sections_to_ingest: "Chapters 1-16 and appendices"
+    status: "SOURCE_ONLY"
+
+  - bibkey: "Baym_1969"
+    citation: "Gordon Baym, Lectures on Quantum Mechanics"
+    tier: 1
+    source_path: "../reference-source/books/Gordon Baym - Lectures On Quantum Mechanics (1969,2018).pdf"
+    sections_to_ingest: "Chapters 1-23 and appendices"
+    status: "SOURCE_ONLY"
+
+  - bibkey: "Fazekas_1999"
+    citation: "Patrik Fazekas, Lecture Notes on Electron Correlation and Magnetism"
+    tier: 1
+    source_path: "../reference-source/books/Fazekas - Lecture Notes on Electron Correlation and Magnetism (1999).pdf"
+    sections_to_ingest: "Chapters 1-12 and appendices"
+    status: "SOURCE_ONLY"
+
+  - bibkey: "Simon_Convexity_2011"
+    citation: "Barry Simon, Convexity: An Analytic Viewpoint"
+    tier: 1
+    source_path: "../reference-source/books/Simon B. - Convexity. An analytic viewpoint (2011).pdf"
+    sections_to_ingest: "Chapters 1-17 and indexes"
+    status: "SOURCE_ONLY"
+
+  - bibkey: "Mattis_Luttinger_2013"
+    citation: "Daniel C. Mattis, Luttinger Model: The First 50 Years and Some New Directions"
+    tier: 2
+    source_path: "../reference-source/books/Daniel C Mattis - Luttinger Model (2013).pdf"
+    sections_to_ingest: "Chapters I-IV and contributed sections"
+    status: "SOURCE_ONLY"
 
   - bibkey: "BratteliRobinson"
     citation: "Ola Bratteli and Derek W. Robinson, Operator Algebras and Quantum Statistical Mechanics 1 & 2"
