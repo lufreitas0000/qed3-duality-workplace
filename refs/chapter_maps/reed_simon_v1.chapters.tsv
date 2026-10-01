@@ -1,0 +1,13 @@
+# source_sha256=87d1c80a3cc353cf3253153512164834f93135b0550e3bddb0d688185bec321f
+# source_pdf_pages=412
+# columns=sequence	chapter_id	slug	first_pdf_page	last_pdf_page	printed_pages
+01	ch01	preliminaries	13	47	1-35
+02	ch02	hilbert_spaces	48	78	36-66
+03	ch03	banach_spaces	79	101	67-89
+04	ch04	topological_spaces	102	135	90-123
+05	ch05	locally_convex_spaces	136	193	124-181
+06	ch06	bounded_operators	194	232	182-220
+07	ch07	spectral_theorem	233	260	221-248
+08	ch08	unbounded_operators	261	329	249-317
+09	ch09	fourier_transform	330	355	318-343
+10	supplement	supplementary_material	356	404	344-394

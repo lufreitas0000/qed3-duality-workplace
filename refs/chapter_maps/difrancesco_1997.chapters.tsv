@@ -1,0 +1,21 @@
+# source_sha256=2ec45f9bcfb9688cfd83625a25358b2ce975ba1c756e96f921baf7c4bf1bfcd5
+# source_pdf_pages=906
+# columns=sequence	chapter_id	slug	first_pdf_page	last_pdf_page	printed_pages
+01	ch01	introduction	22	33	3-14
+02	ch02	quantum_field_theory	34	78	15-59
+03	ch03	statistical_mechanics	79	112	60-94
+04	ch04	global_conformal_invariance	113	128	95-110
+05	ch05	conformal_invariance_two_dimensions	129	167	111-149
+06	ch06	operator_formalism	168	217	150-199
+07	ch07	minimal_models_i	218	256	200-238
+08	ch08	minimal_models_ii	257	311	239-293
+09	ch09	coulomb_gas_formalism	312	352	294-334
+10	ch10	modular_invariance	353	426	335-408
+11	ch11	finite_size_scaling_boundaries	427	456	409-438
+12	ch12	two_dimensional_ising_model	457	505	439-488
+13	ch13	simple_lie_algebras	506	572	489-555
+14	ch14	affine_lie_algebras	573	633	556-616
+15	ch15	wzw_models	634	691	617-674
+16	ch16	fusion_rules_wzw_models	692	735	675-718
+17	ch17	modular_invariants_wzw_models	736	813	719-796
+18	ch18	cosets	814	876	797-860

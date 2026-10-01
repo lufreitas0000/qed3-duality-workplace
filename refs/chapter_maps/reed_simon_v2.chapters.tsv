@@ -1,0 +1,5 @@
+# source_sha256=d3d7852b62b50a5be5b0ff02a930429f91f0c569fd421b094bdc934692bc08d5
+# source_pdf_pages=370
+# columns=sequence	chapter_id	slug	first_pdf_page	last_pdf_page	printed_pages
+01	ch09	fourier_transform	11	144	1-134
+02	ch10	self_adjointness_and_dynamics	145	361	135-352
