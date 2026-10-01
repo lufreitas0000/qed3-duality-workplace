@@ -1,11 +1,11 @@
 # source_sha256=38f76fc8856d86e56c6b18854b774d82258838d8b8c07d03ef69341109fb0bfa
 # source_pdf_pages=380
 # columns=sequence	chapter_id	slug	first_pdf_page	last_pdf_page	printed_pages
-01	ch01	density_matrix_renormalization	22	57	1-36
-02	ch02	quantum_monte_carlo_strongly_correlated_electrons	58	95	37-74
-03	ch03	rg_quasi_one_dimensional_fermions	96	157	75-136
-04	ch04	introduction_to_bosonization	158	205	137-184
-05	ch05	disordered_quantum_solids	206	255	185-234
-06	ch06	self_consistent_many_body_theory	256	315	235-294
-07	ch07	quantum_impurity_models	316	359	295-338
-08	ch08	conserving_and_two_particle_self_consistent_approaches	360	375	339-354
+01	ch01	density_matrix_renormalization	22	57	3-38
+02	ch02	quantum_monte_carlo_strongly_correlated_electrons	58	95	39-76
+03	ch03	rg_quasi_one_dimensional_fermions	96	157	77-138
+04	ch04	introduction_to_bosonization	158	205	139-186
+05	ch05	disordered_quantum_solids	206	255	187-236
+06	ch06	self_consistent_many_body_theory	256	315	237-296
+07	ch07	quantum_impurity_models	316	359	297-340
+08	ch08	conserving_and_two_particle_self_consistent_approaches	360	375	341-356

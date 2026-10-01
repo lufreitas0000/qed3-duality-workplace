@@ -2,15 +2,15 @@
 # source_pdf_pages=534
 # columns=sequence	chapter_id	slug	first_pdf_page	last_pdf_page	printed_pages
 01	ch01	introduction	17	27	1-11
-02	ch02	basics_of_quantum_spin_systems	28	60	12-44
-03	ch03	long_range_order_ising_models	63	85	47-69
-04	ch04	long_range_order_antiferromagnetic_heisenberg_model	86	147	70-131
-05	ch05	long_range_order_bose_einstein_condensates	148	163	132-147
-06	ch06	ground_states_antiferromagnetic_heisenberg_chains	166	188	150-172
-07	ch07	affleck_kennedy_lieb_tasaki_model	189	236	173-220
-08	ch08	haldane_phase	237	314	221-298
-09	ch09	introduction_to_hubbard_model	317	351	301-335
-10	ch10	half_filled_models_lieb_theorems	352	381	336-365
-11	ch11	origin_of_ferromagnetism	382	466	366-450
-12	appendix_a	mathematical_appendices	467	501	451-485
-13	solutions	solutions	502	529	486-513
+02	ch02	basics_of_quantum_spin_systems	28	60	13-45
+03	ch03	long_range_order_ising_models	63	85	49-71
+04	ch04	long_range_order_antiferromagnetic_heisenberg_model	86	147	73-134
+05	ch05	long_range_order_bose_einstein_condensates	148	163	135-150
+06	ch06	ground_states_antiferromagnetic_heisenberg_chains	166	188	153-175
+07	ch07	affleck_kennedy_lieb_tasaki_model	189	236	177-224
+08	ch08	haldane_phase	237	314	225-302
+09	ch09	introduction_to_hubbard_model	317	351	305-339
+10	ch10	half_filled_models_lieb_theorems	352	381	341-370
+11	ch11	origin_of_ferromagnetism	382	466	371-455
+12	appendix_a	mathematical_appendices	467	501	457-491
+13	solutions	solutions	502	529	493-520
