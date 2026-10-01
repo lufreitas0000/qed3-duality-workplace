@@ -27,6 +27,32 @@ The current schedule is in [`doc/sprints.md`](doc/sprints.md). [`doc/TOC_1_1_0.m
 
 The implemented source tree currently contains the Chapter 1 and Chapter 2 module drafts in `src/ch01/` and `src/ch02/`. Later chapter directories are placeholders for future verified work.
 
+## Research and validation workflow
+
+The workplace is also the laboratory for rederiving results from published papers. A paper claim is treated as a module-sized research target: identify the source equation, reconstruct the definitions and assumptions, derive the result independently, and record the comparison with the published statement. The goal is a reproducible derivation that can be audited by another agent and reused by later chapters, rather than a transcription of the paper.
+
+The multi-agent workflow separates the work into complementary roles:
+
+- a **librarian/reference agent** locates the relevant paper or book section and prepares a focused Markdown digest with definitions, lemmas, theorem statements, proof outlines, equation mappings, and unresolved conventions;
+- a **derivation agent** preprocesses informal source material into a usable mathematical structure, then rederives the result in the notation of the workplace;
+- a **symbolic and numerical verification agent** builds checks for identities, limits, spectra, correlation functions, lattice sums, and continuum approximations;
+- a **review agent** compares the derivation, assumptions, tests, and source citation before a module can move from `DRAFT` to `VERIFIED`.
+
+Many physics papers do not present their arguments in a strict definition–lemma–theorem–proof format. Before proving or testing a statement, preprocess it into explicit definitions, domains, hypotheses, intermediate claims, and a final proposition or theorem. Record which steps are exact, which use an approximation, and which depend on a regulator, boundary condition, finite-size convention, or choice of normalization. This preprocessing belongs in the workplace module or its companion reference digest so that an informal equation is not mistaken for a theorem with stronger scope than the source supports.
+
+Validation should use the least expensive check that can falsify a claim, and then add stronger checks when the result is important:
+
+- **SymPy or another computer-algebra system** for exact algebra, commutators, BCH identities, matrix relations, Fourier transforms, and simplification of competing conventions;
+- **NumPy/SciPy, Julia, or equivalent numerical tools** for finite-size spectra, correlation functions, lattice sums, discretized operators, and comparisons with continuum formulas;
+- **convergence and extrapolation studies** for (L\to\infty), lattice-spacing, momentum-cutoff, time-step, and regulator limits, with the fitted error model recorded alongside the data;
+- **discretization checks** that compare different grid sizes, boundary conditions, quadratures, and derivative stencils before a numerical observation is used as evidence;
+- **unit tests and regression tests** under `tests/chXX/` for exact identities, limiting cases, Hermiticity, symmetry actions, dimensions, sign conventions, and known special cases;
+- **independent rederivations and cross-source comparisons** for claims that enter the duality map, anomaly cancellation, operator algebra, or a published-paper reproduction.
+
+Numerical agreement is evidence, not a proof. A test should state its tolerance, precision, discretization, convergence trend, and failure boundary. Symbolic simplification also does not replace domain or operator arguments. Each verified module should therefore distinguish exact algebra, analytical proof, numerical evidence, and conjectural or unresolved steps.
+
+Lean is deliberately not part of the initial workflow. The project will first use structured Markdown, LaTeX derivations, symbolic checks, numerical experiments, convergence studies, and unit tests. If a later module has stable definitions and a proof whose formalization would materially improve reliability, its definitions and dependency graph should be prepared so that Lean or another proof assistant can be considered without reorganizing the research archive.
+
 ## Reference cartography and PDF slicing
 
 [`refs/CHAPTER_SLICES_INDEX.md`](refs/CHAPTER_SLICES_INDEX.md) is the main index for the local full-book library. It records each book's complete contents, printed and physical PDF page coordinates, source and slice paths, and document metadata. The current catalog covers 28 source PDFs, 16 chapter-indexed works with 202 chapter-level units, and 67 systematic Reed–Simon section units. The full transcript/status audit is maintained separately in [`../references-transcripts/TRANSCRIPT_TOC_STATUS.md`](../references-transcripts/TRANSCRIPT_TOC_STATUS.md).
