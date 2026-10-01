@@ -1,0 +1,22 @@
+# source_sha256=29a05da002fd8f9c26da7e21856d95194d6ee765f823f94b9a948366ce773666
+# source_pdf_pages=438
+# original_djvu_sha256=c2407d785c72f63373d852649ffa4f91adcb6ebbe07326502d0d7c2f8d2a86d3
+# conversion=ddjvu 3.5.28 -format=pdf -quality=85
+# columns=sequence	chapter_id	slug	first_pdf_page	last_pdf_page	printed_pages
+01	ch01	peculiarities_of_one_dimension	15	42	1-28
+02	ch02	bosonization	43	83	29-69
+03	ch03	luttinger_liquids	84	113	70-99
+04	ch04	refinements	114	150	100-136
+05	ch05	microscopic_methods	151	173	137-159
+06	ch06	spin_one_half_chains	174	213	160-199
+07	ch07	interacting_fermions_on_a_lattice	214	251	200-237
+08	ch08	coupled_fermionic_chains	252	283	238-269
+09	ch09	disordered_systems	284	316	270-302
+10	ch10	boundaries_and_isolated_impurities	317	346	303-332
+11	ch11	significant_others	347	383	333-369
+12	appendix_a	basics_of_many_body_theory	384	389	370-375
+13	appendix_b	fine_technical_points	390	393	376-379
+14	appendix_c	correlation_functions	394	404	380-390
+15	appendix_d	bosonization_dictionary	405	409	391-395
+16	appendix_e	sine_gordon	410	417	396-403
+17	appendix_f	numerical_solution	418	421	404-407

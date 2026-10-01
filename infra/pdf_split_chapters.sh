@@ -233,7 +233,11 @@ while IFS="$TAB" read -r sequence chapter_id slug first_page last_page printed_p
     output_meta="$DEST_DIR/$stem.meta.txt"
 
     rm -f "$TMP_SLICE" "$TMP_FINAL"
-    qpdf "$SOURCE" --pages . "$first_page-$last_page" -- "$TMP_SLICE"
+    # Legacy scans sometimes attach obsolete keys to the page tree. qpdf can
+    # safely discard those keys while still producing a valid slice, but uses
+    # exit status 3 to report the warning unless explicitly told otherwise.
+    qpdf --warning-exit-0 \
+        "$SOURCE" --pages . "$first_page-$last_page" -- "$TMP_SLICE"
     compress_pdf "$TMP_SLICE" "$TMP_FINAL"
     mv "$TMP_FINAL" "$output_pdf"
 

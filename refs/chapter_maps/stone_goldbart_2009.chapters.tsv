@@ -1,0 +1,24 @@
+# source_sha256=dda79be54565c886ffc0b63668e13d2e0b40ceb8133629a3968786bf7832843a
+# source_pdf_pages=820
+# columns=sequence	chapter_id	slug	first_pdf_page	last_pdf_page	printed_pages
+01	ch01	calculus_of_variations	15	63	1-49
+02	ch02	function_spaces	64	99	50-85
+03	ch03	linear_ordinary_differential_equations	100	114	86-100
+04	ch04	linear_differential_operators	115	153	101-139
+05	ch05	green_functions	154	187	140-173
+06	ch06	partial_differential_equations	188	244	174-230
+07	ch07	mathematics_of_real_waves	245	277	231-263
+08	ch08	special_functions	278	324	264-310
+09	ch09	integral_equations	325	360	311-346
+10	ch10	vectors_and_tensors	361	389	347-375
+11	ch11	differential_calculus_on_manifolds	390	427	376-413
+12	ch12	integration_on_manifolds	428	462	414-448
+13	ch13	introduction_to_differential_topology	463	511	449-497
+14	ch14	groups_and_group_representations	512	543	498-529
+15	ch15	lie_groups	544	589	530-575
+16	ch16	geometry_of_fibre_bundles	590	619	576-605
+17	ch17	complex_analysis	620	679	606-665
+18	ch18	applications_of_complex_variables	680	719	666-705
+19	ch19	special_functions_and_complex_variables	720	757	706-743
+20	appendix_a	linear_algebra_review	758	792	744-778
+21	appendix_b	fourier_series_and_integrals	793	810	779-796

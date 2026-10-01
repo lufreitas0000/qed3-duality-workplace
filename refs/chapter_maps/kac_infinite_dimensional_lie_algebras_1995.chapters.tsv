@@ -1,0 +1,17 @@
+# source_sha256=72d5f7a95206f91cb2000288c80d6073606d235841091dd62464b6f03f17d069
+# source_pdf_pages=423
+# columns=sequence	chapter_id	slug	first_pdf_page	last_pdf_page	printed_pages
+01	ch01	basic_definitions	24	38	1-15
+02	ch02	invariant_form_and_casimir_operator	39	52	16-29
+03	ch03	integrable_representations_and_weyl_group	53	69	30-46
+04	ch04	classification_generalized_cartan_matrices	70	81	47-58
+05	ch05	real_and_imaginary_roots	82	101	59-78
+06	ch06	affine_algebras_root_system_and_weyl_group	102	118	79-95
+07	ch07	affine_algebras_central_extensions_loop_algebras	119	147	96-124
+08	ch08	twisted_affine_algebras_and_automorphisms	148	167	125-144
+09	ch09	highest_weight_modules	168	193	145-170
+10	ch10	integrable_highest_weight_modules_character_formula	194	212	171-189
+11	ch11	integrable_modules_weight_system_and_unitarizability	213	238	190-215
+12	ch12	affine_modules_theta_identities_sugawara_branching	239	270	216-247
+13	ch13	affine_algebras_theta_functions_modular_forms	271	314	248-291
+14	ch14	vertex_operator_constructions_boson_fermion_correspondence	315	375	292-352

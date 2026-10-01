@@ -1,0 +1,8 @@
+# source_sha256=7699476a3092ad0f8b7d23df0ceb21f36e6fb223f42515b9613388af52b37345
+# source_pdf_pages=205
+# columns=sequence	chapter_id	slug	first_pdf_page	last_pdf_page	printed_pages
+01	ch01	wightman_axioms_and_vertex_algebras	9	20	5-16
+02	ch02	calculus_of_formal_distributions	21	84	17-80
+03	ch03	local_fields	85	106	81-102
+04	ch04	structure_theory_of_vertex_algebras	107	136	103-132
+05	ch05	examples_vertex_algebras_and_applications	137	196	133-192
