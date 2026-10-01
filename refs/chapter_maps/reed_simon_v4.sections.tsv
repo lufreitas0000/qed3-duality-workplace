@@ -1,0 +1,35 @@
+# source_sha256=fbc80fb83f5f0b2c32c7c7c2b8b912975268645a77e8fe5bf2ee1340fba1271f
+# source_pdf_pages=404
+# overlap_pages=1
+# columns=sequence	section_id	slug	first_pdf_page	last_pdf_page	printed_pages
+001	ch12_s01	finite_dimensional_perturbation_theory	11	18	1-8
+002	ch12_appendix01	algebraic_and_geometric_multiplicity_of_eigenvalues_of_finite_matrices	19	19	9-9
+003	ch12_s02	regular_perturbation_theory	20	34	10-24
+004	ch12_s03	asymptotic_perturbation_theory	35	47	25-37
+005	ch12_s04	summability_methods_in_perturbation_theory	48	54	38-44
+006	ch12_s05	spectral_concentration	55	60	45-50
+007	ch12_s06	resonances_and_the_fermi_golden_rule	61	69	51-59
+008	ch12_notes01	notes	70	78	60-68
+009	ch12_problems	problems	79	84	69-74
+010	ch13_s01	the_minmax_principle	85	88	75-78
+011	ch13_s02	bound_states_of_schrodinger_operators_i_quantitative_methods	89	95	79-85
+012	ch13_s03	bound_states_of_schrodinger_operators_ii_qualitative_theory	96	115	86-105
+013	ch13_s04	locating_the_essential_spectrum_i_weyls_theorem	116	129	106-119
+014	ch13_s05	locating_the_essential_spectrum_iii_the_hvz_theorem	130	145	120-135
+015	ch13_s06	absence_of_singular_continuous_spectrum_i_general_theory	146	150	136-140
+016	ch13_s07	absence_of_singular_continuous_spectrum_ii_smooth_perturbations	151	177	141-167
+017	ch13_s08	absence_of_singular_continuous_spectrum_iii_weighted_l2_spaces	178	186	168-176
+018	ch13_s09	spectrum_of_tensor_products	187	192	177-182
+019	ch13_s10	absence_of_singular_continuous_spectrum_iv_dilation_analytic_potentials	193	200	183-190
+020	ch13_s11	properties_of_eigenfunctions	201	210	191-200
+021	ch13_s12	nondegeneracy_of_the_ground_state	211	218	201-208
+022	ch13_appendix01	beurling_deny_criteria	219	221	209-211
+023	ch13_appendix02	levy_khintchine_formula	222	231	212-221
+024	ch13_s13	absence_of_positive_eigenvalues	232	248	222-238
+025	ch13_appendix03	unique_continuation_theorems_for_schrodinger_operators	249	253	239-243
+026	ch13_s14	compactness_criteria_and_operators_with_compact_resolvent	254	269	244-259
+027	ch13_s15	asymptotic_distribution_of_eigenvalues	270	288	260-278
+028	ch13_s16	schrodinger_operators_with_periodic_potentials	289	325	279-315
+029	ch13_s17	introduction_to_the_spectral_theory_of_non_self_adjoint_operators	326	347	316-337
+030	ch13_notes01	notes	348	373	338-363
+031	ch13_problems	problems	374	396	364-386

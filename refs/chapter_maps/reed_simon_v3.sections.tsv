@@ -1,0 +1,40 @@
+# source_sha256=652a67460d9e4d1eaddbca65528ee5544ca0077e9cb2e5472a513193b53200e9
+# source_pdf_pages=468
+# overlap_pages=1
+# columns=sequence	section_id	slug	first_pdf_page	last_pdf_page	printed_pages
+001	ch11_s01	an_overview_of_scattering_phenomena	10	13	1-4
+002	ch11_s02	classical_particle_scattering	14	24	5-15
+003	ch11_s03	basic_principles_of_scattering_in_hilbert_space	25	45	16-36
+004	ch11_appendix01	stationary_phase_methods	46	55	37-46
+005	ch11_appendix02	trace_ideal_properties_of_f_x_g_i	56	57	47-48
+006	ch11_appendix03	general_invariance_principle_for_wave_operators	58	62	49-53
+007	ch11_s04	quantum_scattering_i_two_body_case	63	83	54-74
+008	ch11_s05	quantum_scattering_ii_n_body_case	84	104	75-95
+009	ch11_s06	quantum_scattering_iii_eigenfunction_expansions	105	120	96-111
+010	ch11_appendix04	introduction_to_eigenfunction_expansions_by_the_abstract_spectral_method	121	124	112-115
+011	ch11_s07	quantum_scattering_iv_dispersion_relations	125	129	116-120
+012	ch11_s08	quantum_scattering_v_central_potentials	130	157	121-148
+013	ch11_appendix05	legendre_polynomials_and_spherical_bessel_functions	158	163	149-154
+014	ch11_appendix06	jost_solutions_for_oscillatory_potentials	164	172	155-163
+015	ch11_appendix07	jost_solutions_and_fundamental_problems_of_scattering_theory	173	177	164-168
+016	ch11_s09	long_range_potentials	178	192	169-183
+017	ch11_s10	optical_and_acoustical_scattering_i_schrodinger_operator_methods	193	211	184-202
+018	ch11_appendix08	trace_class_properties_of_greens_functions	212	218	203-209
+019	ch11_s11	optical_and_acoustical_scattering_ii_laxphillips_method	219	249	210-240
+020	ch11_appendix09	the_twisting_trick	250	251	241-242
+021	ch11_s12	linear_boltzmann_equation	252	260	243-251
+022	ch11_s13	nonlinear_wave_equations	261	286	252-277
+023	ch11_appendix10	conserved_currents	287	293	278-284
+024	ch11_s14	spin_wave_scattering	294	301	285-292
+025	ch11_s15	quantum_field_scattering_i_external_field	302	325	293-316
+026	ch11_s16	quantum_field_scattering_ii_haagruelle_theory	326	339	317-330
+027	ch11_s17	phase_space_analysis_of_scattering_and_spectral_theory	340	348	331-339
+028	ch11_appendix11	the_enss_theorem	349	352	340-343
+029	ch11_notes01	notes	353	390	344-381
+030	ch11_notes02	notes_on_scattering_theory_on_c_algebras	391	393	382-384
+031	ch11_problems	problems	394	414	385-405
+032	supplement_v4_xiii_6	absence_of_singular_continuous_spectrum_i_general_theory	415	419	406-410
+033	supplement_v4_xiii_7	absence_of_singular_continuous_spectrum_ii_smooth_perturbations	420	446	411-437
+034	supplement_v4_xiii_8	absence_of_singular_continuous_spectrum_iii_weighted_l2_spaces	447	455	438-446
+035	supplement_v4_notes01	notes	456	458	447-449
+036	supplement_v4_problems	problems	459	463	450-454

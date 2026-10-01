@@ -23,7 +23,7 @@
 | `reed_simon_v4` | Michael Reed and Barry Simon, *Methods of Modern Mathematical Physics, Vol. IV: Analysis of Operators* | 2 | Raster scan; no embedded OCR text layer. |
 | `stone_goldbart_solutions` | Michael Stone and Paul Goldbart, *Solutions to Problems for Mathematics for Physics* | 16 | Born-digital searchable solution manual; solutions are present only for the listed chapters. |
 
-The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the source SHA-256 and total physical page count. Each chapter PDF has a neighboring `.meta.txt` sidecar containing its output checksum and provenance.
+The chapter maps in [`chapter_maps/`](chapter_maps/) bind each plan to the source SHA-256 and total physical page count. Each generated PDF has a neighboring `.meta.txt` sidecar containing its output checksum and provenance. Volumes III and IV of Reed–Simon also have 67 systematic section PDFs; each includes a one-page overlap before and after its core range.
 
 ## Michael Reed and Barry Simon — *Methods of Modern Mathematical Physics, Vol. I: Functional Analysis*
 
@@ -2603,6 +2603,8 @@ The printed contents lists these 26 numbered units without subordinate section e
 - **Source:** `books/Reed,Simon - V3 - Scaterring Theory.pdf`
 - **Document metadata:** Raster scan; one full-page image per PDF page; no embedded OCR text layer.
 - **Chapter map:** [`reed_simon_v3.chapters.tsv`](chapter_maps/reed_simon_v3.chapters.tsv)
+- **Section map:** [`reed_simon_v3.sections.tsv`](chapter_maps/reed_simon_v3.sections.tsv) — 36 units with one context page on each side
+- **Section PDFs:** [`reed_simon_v3/sections/`](../../References-Full/_slices/reed_simon_v3/sections/)
 
 | Unit | Chapter or supplement | Print pages | Physical PDF pages | Chapter PDF |
 |---:|---|---:|---:|---|
@@ -2672,6 +2674,8 @@ The printed contents lists these 26 numbered units without subordinate section e
 - **Source:** `books/Reed,Simon - V4 - Analysis of Operators.pdf`
 - **Document metadata:** Raster scan; no embedded OCR text layer.
 - **Chapter map:** [`reed_simon_v4.chapters.tsv`](chapter_maps/reed_simon_v4.chapters.tsv)
+- **Section map:** [`reed_simon_v4.sections.tsv`](chapter_maps/reed_simon_v4.sections.tsv) — 31 units with one context page on each side
+- **Section PDFs:** [`reed_simon_v4/sections/`](../../References-Full/_slices/reed_simon_v4/sections/)
 
 | Unit | Chapter | Print pages | Physical PDF pages | Chapter PDF |
 |---:|---|---:|---:|---|

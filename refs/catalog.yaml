@@ -20,6 +20,9 @@ catalog:
       - "refs/chapter_maps/reed_simon_v2.chapters.tsv"
       - "refs/chapter_maps/reed_simon_v3.chapters.tsv"
       - "refs/chapter_maps/reed_simon_v4.chapters.tsv"
+    section_maps:
+      - "refs/chapter_maps/reed_simon_v3.sections.tsv"
+      - "refs/chapter_maps/reed_simon_v4.sections.tsv"
     sections_to_ingest: "UNVERIFIED numbering, check edition"
     status: "TODO"
 

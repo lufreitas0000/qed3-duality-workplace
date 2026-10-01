@@ -29,16 +29,20 @@ The implemented source tree currently contains the Chapter 1 and Chapter 2 modul
 
 ## Reference cartography and PDF slicing
 
-[`refs/CHAPTER_SLICES_INDEX.md`](refs/CHAPTER_SLICES_INDEX.md) is the main index for the local full-book library. It records each book's complete contents, printed and physical PDF page coordinates, source and slice paths, and document metadata. The current catalog covers 16 source works and 202 chapter, appendix, supplement, or solution units.
+[`refs/CHAPTER_SLICES_INDEX.md`](refs/CHAPTER_SLICES_INDEX.md) is the main index for the local full-book library. It records each book's complete contents, printed and physical PDF page coordinates, source and slice paths, and document metadata. The current catalog covers 16 source works, 202 chapter-level units, and 67 systematic Reed–Simon section units.
 
-Machine-readable chapter maps live in [`refs/chapter_maps/`](refs/chapter_maps/). Two scripts reproduce the extraction workflow:
+Machine-readable chapter and section maps live in [`refs/chapter_maps/`](refs/chapter_maps/). Two scripts reproduce the extraction workflow:
 
 ```bash
 # Inspect metadata, extract front matter for TOC/OCR work, or make an ad hoc slice.
 ./infra/pdf_reference_tool.sh --help
 
-# Split a full book according to a reviewed TSV chapter map and compress each unit.
+# Split a full book according to a reviewed TSV map and compress each unit.
 ./infra/pdf_split_chapters.sh --help
+
+# Section maps can request contextual overlap and write to sections/.
+./infra/pdf_split_chapters.sh --source SOURCE.pdf --book-key BOOK_KEY \
+  --map refs/chapter_maps/BOOK_KEY.sections.tsv --unit-type section
 ```
 
 Both scripts write generated PDFs beneath `../References-Full/_slices/<book-key>/`. The TSV maps and Markdown index are version controlled; the large source and generated PDFs are not.
